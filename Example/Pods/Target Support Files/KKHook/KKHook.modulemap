@@ -1,0 +1,6 @@
+framework module KKHook {
+  umbrella header "KKHook-umbrella.h"
+
+  export *
+  module * { export * }
+}

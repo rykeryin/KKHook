@@ -7,6 +7,7 @@
 //
 
 #import "KKAppDelegate.h"
+#import <KKHook/KKHook.h>
 
 @implementation KKAppDelegate
 
@@ -15,6 +16,7 @@
     // Override point for customization after application launch.
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
