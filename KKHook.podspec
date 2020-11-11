@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KKHook/Classes/**/*'
+  s.source_files = 'KKHook/Classes/*.{m,c}'
   
   # s.resource_bundles = {
   #   'KKHook' => ['KKHook/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/KKHook.h'
+   s.public_header_files = 'KKHook/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
