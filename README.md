@@ -7,7 +7,46 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Simple two - step hooks for the OC method and symbol
+
+1. Init Hooker
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    KKHookInit
+    return YES;
+}
+```
+2. Hook Example
+```
+#import <KKHook/KKHook.h>
+#import <UIKit/UIKit.h>
+
+// Example: Hook UnImported KKViewController
+KKClassHookUnImported(KKViewController)
+- (void)hook1_viewDidLoad {
+    printf("KKViewController viewDidLoad hooked 1 \n");
+    [self hook1_viewDidLoad];
+}
+KKClassHookEnd
+
+// Example: Hook Imported UIViewController
+KKClassHookImported(UIViewController)
+- (void)hook_viewWillAppear:(BOOL)animated {
+    printf("\nUIViewController viewWillAppear hooked\n");
+}
+- (void)hook_viewDidLoad {
+    printf("UIViewController viewDidLoad hooked\n");
+}
+KKClassHookEnd
+
+// Example: Hook fopen
+KKSymbolHook(FILE *, fopen, const char * __restrict __filename, const char * __restrict __mode) {
+    printf("fopen hooked\n");
+    return orig_fopen(__filename, __mode);
+}
+KKSymbolHookRegister(fopen);
+```
 
 ## Requirements
 
