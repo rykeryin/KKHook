@@ -10,7 +10,7 @@
 Simple two - step hooks for the OC method and symbol
 
 1. Init Hooker
-```
+```Object-C
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     KKHookInit
@@ -18,7 +18,7 @@ Simple two - step hooks for the OC method and symbol
 }
 ```
 2. Hook Example
-```
+```Object-C
 #import <KKHook/KKHook.h>
 #import <UIKit/UIKit.h>
 
