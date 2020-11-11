@@ -14,10 +14,14 @@
 
 @implementation KKViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    if (!fopen("", "")) {
+        printf("Open file failed!");
+    }
 }
 
 - (void)didReceiveMemoryWarning

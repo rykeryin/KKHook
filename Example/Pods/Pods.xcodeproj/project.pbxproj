@@ -81,11 +81,23 @@
 		6DFA2A4ECED1F7E0310AB654FFBD2445 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B521014FCFD00FB0B45F815E5B0B1BA /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E8A45EF6CD46D90A634E1E9163E562E /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E4F07236DB842702419DDA25855C6 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		70E91290A2C36004BB7177FE09A902A5 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */; };
-		73321EB1255A7F48009AA0A1 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 73321EAB255A7F48009AA0A1 /* fishhook.c */; };
-		73321EB2255A7F48009AA0A1 /* CHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 73321EAC255A7F48009AA0A1 /* CHook.m */; };
-		73321EB3255A7F48009AA0A1 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAD255A7F48009AA0A1 /* fishhook.h */; };
-		73321EB4255A7F48009AA0A1 /* OCHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAE255A7F48009AA0A1 /* OCHook.h */; };
-		73321EB5255A7F48009AA0A1 /* CHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAF255A7F48009AA0A1 /* CHook.h */; };
+		73085437255C23F500A7FCE5 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 73085435255C23F500A7FCE5 /* fishhook.c */; };
+		73085438255C23F500A7FCE5 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73085436255C23F500A7FCE5 /* fishhook.h */; };
+		73085449255C272C00A7FCE5 /* KKHookManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73085447255C272C00A7FCE5 /* KKHookManager.h */; };
+		7308544A255C272C00A7FCE5 /* KKHookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73085448255C272C00A7FCE5 /* KKHookManager.m */; };
+		7308547E255C2A8A00A7FCE5 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 73085435255C23F500A7FCE5 /* fishhook.c */; };
+		73085481255C2A8A00A7FCE5 /* KKHookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73085448255C272C00A7FCE5 /* KKHookManager.m */; };
+		73085489255C2A9600A7FCE5 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73085436255C23F500A7FCE5 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7308548A255C2A9600A7FCE5 /* KKSymbolHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAF255A7F48009AA0A1 /* KKSymbolHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7308548B255C2A9700A7FCE5 /* KKHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EB0255A7F48009AA0A1 /* KKHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7308548C255C2A9700A7FCE5 /* KKClassHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAE255A7F48009AA0A1 /* KKClassHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7308548D255C2A9700A7FCE5 /* KKHookManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73085447255C272C00A7FCE5 /* KKHookManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73085497255C2B1B00A7FCE5 /* KKSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73085495255C2B1B00A7FCE5 /* KKSymbol.h */; };
+		73085498255C2B1B00A7FCE5 /* KKSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 73085496255C2B1B00A7FCE5 /* KKSymbol.m */; };
+		730854AE255C2E4000A7FCE5 /* KKSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 73085496255C2B1B00A7FCE5 /* KKSymbol.m */; };
+		730854FC255C375E00A7FCE5 /* KKSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73085495255C2B1B00A7FCE5 /* KKSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73321EB4255A7F48009AA0A1 /* KKClassHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAE255A7F48009AA0A1 /* KKClassHook.h */; };
+		73321EB5255A7F48009AA0A1 /* KKSymbolHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EAF255A7F48009AA0A1 /* KKSymbolHook.h */; };
 		73321EB6255A7F48009AA0A1 /* KKHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73321EB0255A7F48009AA0A1 /* KKHook.h */; };
 		7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB53AA433A01014DA105EFCF5D5EEDA /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		777DB2CAF42F78F06C61F9A4AA3AD09C /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B7C836D64457C8BC882D338F4E79E5 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -113,7 +125,6 @@
 		9FA92269C76E56CD70FB8C0AB47AD16D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0245DF7148A7072C0E79CF80FA8DB43 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FB558C12CC98F95A448699D80E54CA /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */; };
 		A6A49734BE2CA7A10109D9A0F6E79AAA /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F26604AD4A38EF911B54B74ECABFC5 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7D676E0B6C7E2FFA40608E61542501A /* KKHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C0D01D0B7A664425BFC0B25FE1C18 /* KKHook-dummy.m */; };
 		ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B587F705BFFCCBD0E65FA3DAF35FA1D /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD96736DFA1A1A28B31F13E7818FCFE2 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = E19D7F91877074DF27F99640EC532352 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ADC88A4EE6896AE4E6412F0128AB38C5 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F094E0D0E122398BEE05F02377D96CC1 /* SPTExampleGroup.m */; };
@@ -136,7 +147,6 @@
 		CA004C816B835986CB7FD1AF44E0DFD1 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC1594F0D2374E5BA180A52DA57710C /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA17B8E5FFF13F7681D42AF5D6F1F1B0 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9FA53099A1DDA106AAF2A4E7053ABE /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC5881C4C1CE00283750026BB52345F /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CBAF9EFDA3A21023BA168A527C687B18 /* KKHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0867CC7A311E3DAB823716407A808B /* KKHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF75EC5B1F56E3EFE66CC368FBB703A /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0394BEA7DB87C6313E024C3574B0BD /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAF21BD02AEB538FFA5DAD220ED7E3F /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -321,12 +331,15 @@
 		6EE87F7213E48CFE9B4B41448280C281 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		6F8DD5EECCB60C0E08BD32324A8E8649 /* Expecta+Snapshots-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta+Snapshots-Info.plist"; sourceTree = "<group>"; };
 		6FCDD127923D81FCC10FA3EC547194B7 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
-		73321EAB255A7F48009AA0A1 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
-		73321EAC255A7F48009AA0A1 /* CHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHook.m; path = KKHook/Classes/CHook.m; sourceTree = "<group>"; };
-		73321EAD255A7F48009AA0A1 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = KKHook/Classes/fishhook.h; sourceTree = "<group>"; };
-		73321EAE255A7F48009AA0A1 /* OCHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCHook.h; path = KKHook/Classes/OCHook.h; sourceTree = "<group>"; };
-		73321EAF255A7F48009AA0A1 /* CHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHook.h; path = KKHook/Classes/CHook.h; sourceTree = "<group>"; };
-		73321EB0255A7F48009AA0A1 /* KKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKHook.h; path = KKHook/Classes/KKHook.h; sourceTree = "<group>"; };
+		73085435255C23F500A7FCE5 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		73085436255C23F500A7FCE5 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		73085447255C272C00A7FCE5 /* KKHookManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKHookManager.h; sourceTree = "<group>"; };
+		73085448255C272C00A7FCE5 /* KKHookManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKHookManager.m; sourceTree = "<group>"; };
+		73085495255C2B1B00A7FCE5 /* KKSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKSymbol.h; sourceTree = "<group>"; };
+		73085496255C2B1B00A7FCE5 /* KKSymbol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSymbol.m; sourceTree = "<group>"; };
+		73321EAE255A7F48009AA0A1 /* KKClassHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKClassHook.h; path = KKHook/Classes/KKClassHook.h; sourceTree = "<group>"; };
+		73321EAF255A7F48009AA0A1 /* KKSymbolHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKSymbolHook.h; path = KKHook/Classes/KKSymbolHook.h; sourceTree = "<group>"; };
+		73321EB0255A7F48009AA0A1 /* KKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHook.h; sourceTree = "<group>"; };
 		7495229ED326CAFE4282BE02C761C070 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		77F788FE00F7A604ED357B9D966B94A8 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		7AB65B36803C06E3FCE87BE4E9030529 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
@@ -546,12 +559,14 @@
 		0FCDB572DBDFD14C6E25D02CC8E7BE99 /* KKHook */ = {
 			isa = PBXGroup;
 			children = (
-				73321EAF255A7F48009AA0A1 /* CHook.h */,
-				73321EAC255A7F48009AA0A1 /* CHook.m */,
-				73321EAB255A7F48009AA0A1 /* fishhook.c */,
-				73321EAD255A7F48009AA0A1 /* fishhook.h */,
+				73085434255C23F500A7FCE5 /* fishhook */,
 				73321EB0255A7F48009AA0A1 /* KKHook.h */,
-				73321EAE255A7F48009AA0A1 /* OCHook.h */,
+				73085495255C2B1B00A7FCE5 /* KKSymbol.h */,
+				73085496255C2B1B00A7FCE5 /* KKSymbol.m */,
+				73321EAF255A7F48009AA0A1 /* KKSymbolHook.h */,
+				73321EAE255A7F48009AA0A1 /* KKClassHook.h */,
+				73085447255C272C00A7FCE5 /* KKHookManager.h */,
+				73085448255C272C00A7FCE5 /* KKHookManager.m */,
 				86C86B60C0EAE5331722F78ED06E8B82 /* Pod */,
 				45F118009D521833124B2383761BB3ED /* Support Files */,
 			);
@@ -754,6 +769,16 @@
 			path = Expecta;
 			sourceTree = "<group>";
 		};
+		73085434255C23F500A7FCE5 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				73085436255C23F500A7FCE5 /* fishhook.h */,
+				73085435255C23F500A7FCE5 /* fishhook.c */,
+			);
+			name = fishhook;
+			path = KKHook/Classes/fishhook;
+			sourceTree = "<group>";
+		};
 		821FBA581F722A963EB3A46026FFB5FF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -885,14 +910,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73321EB5255A7F48009AA0A1 /* CHook.h in Headers */,
+				73085449255C272C00A7FCE5 /* KKHookManager.h in Headers */,
+				73321EB5255A7F48009AA0A1 /* KKSymbolHook.h in Headers */,
 				73321EB6255A7F48009AA0A1 /* KKHook.h in Headers */,
 				5242CFE182637D4BCCAC9E0BCC4483C4 /* EXPBlockDefinedMatcher.h in Headers */,
 				521CCD99D4003505D4B65A4131BAFB22 /* EXPDefines.h in Headers */,
 				4CD00C2DDD1130268D57492C92768C2D /* EXPDoubleTuple.h in Headers */,
 				821F025A006CB157497E83C0EC102052 /* Expecta-umbrella.h in Headers */,
 				97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */,
-				73321EB4255A7F48009AA0A1 /* OCHook.h in Headers */,
+				73321EB4255A7F48009AA0A1 /* KKClassHook.h in Headers */,
 				4D48EA2D9F127FF844FE61016D25DDE0 /* ExpectaObject.h in Headers */,
 				416D3BE841B08CED03D16649957ECB10 /* ExpectaSupport.h in Headers */,
 				DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */,
@@ -909,8 +935,8 @@
 				4FD8D4A9E3DFCABB9A26AA22FABA018B /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				3681AC7A2C3E52B5F6514D1560E13191 /* EXPMatchers+beKindOf.h in Headers */,
 				28F23E68E55462EBC24ABF2F2F131255 /* EXPMatchers+beLessThan.h in Headers */,
-				73321EB3255A7F48009AA0A1 /* fishhook.h in Headers */,
 				12C14FE4834134BC916F8DD42B875D3B /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
+				73085438255C23F500A7FCE5 /* fishhook.h in Headers */,
 				873165886F20870B205EBE37F8185546 /* EXPMatchers+beNil.h in Headers */,
 				0DE0AA588BC61692033B67CFCE4EC742 /* EXPMatchers+beSubclassOf.h in Headers */,
 				2A46DD69C90BDFA0AD55A31D0F16A78A /* EXPMatchers+beSupersetOf.h in Headers */,
@@ -920,6 +946,7 @@
 				00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */,
 				FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */,
 				ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */,
+				73085497255C2B1B00A7FCE5 /* KKSymbol.h in Headers */,
 				660F79D9086A7962E1FFFA101802E8E0 /* EXPMatchers+match.h in Headers */,
 				D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */,
 				3C82710DF39F627A44AE7067B65F92C7 /* EXPMatchers+raise.h in Headers */,
@@ -961,7 +988,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBAF9EFDA3A21023BA168A527C687B18 /* KKHook-umbrella.h in Headers */,
+				7308548B255C2A9700A7FCE5 /* KKHook.h in Headers */,
+				7308548A255C2A9600A7FCE5 /* KKSymbolHook.h in Headers */,
+				7308548C255C2A9700A7FCE5 /* KKClassHook.h in Headers */,
+				7308548D255C2A9700A7FCE5 /* KKHookManager.h in Headers */,
+				730854FC255C375E00A7FCE5 /* KKSymbol.h in Headers */,
+				73085489255C2A9600A7FCE5 /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1250,7 +1282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D676E0B6C7E2FFA40608E61542501A /* KKHook-dummy.m in Sources */,
+				7308547E255C2A8A00A7FCE5 /* fishhook.c in Sources */,
+				730854AE255C2E4000A7FCE5 /* KKSymbol.m in Sources */,
+				73085481255C2A8A00A7FCE5 /* KKHookManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1274,14 +1308,15 @@
 				F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */,
 				B5596C58EE23B7C7BCE850A4C6679F1C /* EXPMatchers+beInstanceOf.m in Sources */,
 				5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */,
+				73085498255C2B1B00A7FCE5 /* KKSymbol.m in Sources */,
 				244D8552B11F2D1B417EBB82BBE9E938 /* EXPMatchers+beKindOf.m in Sources */,
+				7308544A255C272C00A7FCE5 /* KKHookManager.m in Sources */,
 				B31E1ABB0DF9F6E7C3B8BEC90C04FCBE /* EXPMatchers+beLessThan.m in Sources */,
-				73321EB2255A7F48009AA0A1 /* CHook.m in Sources */,
 				9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
 				EC57F974317D76B799CFE2A018B5F9E2 /* EXPMatchers+beNil.m in Sources */,
 				188A55E8570219DC971027460C2BCF1B /* EXPMatchers+beSubclassOf.m in Sources */,
 				20471DE376ACB94F0E144A26EFFCFD21 /* EXPMatchers+beSupersetOf.m in Sources */,
-				73321EB1255A7F48009AA0A1 /* fishhook.c in Sources */,
+				73085437255C23F500A7FCE5 /* fishhook.c in Sources */,
 				140394F97EEF0A95AB171649249F211C /* EXPMatchers+beTruthy.m in Sources */,
 				DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */,
 				7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */,
