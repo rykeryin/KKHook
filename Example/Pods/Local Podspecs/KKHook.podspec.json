@@ -1,7 +1,10 @@
 {
   "name": "KKHook",
-  "version": "0.2.4",
+  "version": "0.3.1",
   "summary": "A short description of KKHook.",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 arm64"
+  },
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/rykeryin/KKHook",
   "license": {
@@ -13,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/rykeryin/KKHook.git",
-    "tag": "0.2.4"
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "9.0"
