@@ -7,9 +7,6 @@
 //
 
 #import "KKViewController.h"
-//#import <Dobby/dobby.h>
-//#import <KKHook/KKHook.h>
-//#import "KKSymbolHook.h"
 
 @interface KKViewController ()
 

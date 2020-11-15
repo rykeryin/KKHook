@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01EB43BAA577897A2C17FC94 /* Pods_KKHook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C232E595E4486996EFFF5F33 /* Pods_KKHook_Example.framework */; };
-		23158B8858A75427FB183604 /* Pods_KKHook_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9336FE0AD4F2D4F7E0D72A72 /* Pods_KKHook_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -33,7 +31,9 @@
 		73605C8A256101D4003308F6 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605C88256101D4003308F6 /* Fish.m */; };
 		73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CBE256103C9003308F6 /* KKSymbolHookExample.m */; };
 		73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CC4256103DC003308F6 /* KKAddressHookExample.m */; };
+		7826A3D462D7CCC88F2A9B0D /* Pods_KKHook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3869698619AC40A9A0C181F /* Pods_KKHook_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EF471111D1242C5E89037161 /* Pods_KKHook_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99785C8A78CCC98247771125 /* Pods_KKHook_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,9 +119,9 @@
 		73605CC4256103DC003308F6 /* KKAddressHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAddressHookExample.m; sourceTree = "<group>"; };
 		7365984A255FC63600E03BA1 /* Shark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shark.framework; path = KKHook/Shark.framework; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9336FE0AD4F2D4F7E0D72A72 /* Pods_KKHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99785C8A78CCC98247771125 /* Pods_KKHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D8C91159021345CD3CD7A5 /* Pods-KKHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKHook_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C232E595E4486996EFFF5F33 /* Pods_KKHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3869698619AC40A9A0C181F /* Pods_KKHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3B736AE3E91E15C1CF257E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CDBF623ECA3FD49093B0E160 /* Pods-KKHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKHook_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,7 +135,7 @@
 				73605C7C256101AD003308F6 /* TestMachO.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				01EB43BAA577897A2C17FC94 /* Pods_KKHook_Example.framework in Frameworks */,
+				7826A3D462D7CCC88F2A9B0D /* Pods_KKHook_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				23158B8858A75427FB183604 /* Pods_KKHook_Tests.framework in Frameworks */,
+				EF471111D1242C5E89037161 /* Pods_KKHook_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +212,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C232E595E4486996EFFF5F33 /* Pods_KKHook_Example.framework */,
-				9336FE0AD4F2D4F7E0D72A72 /* Pods_KKHook_Tests.framework */,
+				C3869698619AC40A9A0C181F /* Pods_KKHook_Example.framework */,
+				99785C8A78CCC98247771125 /* Pods_KKHook_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,8 +320,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				401668701C23126560836228 /* [CP] Embed Pods Frameworks */,
 				73659879255FC9E300E03BA1 /* Embed Frameworks */,
+				18A062C4B76439413E0BED3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -341,7 +341,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				44701DF8B1BB6F090B022579 /* [CP] Embed Pods Frameworks */,
+				8A32821754E65DF4CF42AAB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -501,7 +501,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		401668701C23126560836228 /* [CP] Embed Pods Frameworks */ = {
+		18A062C4B76439413E0BED3B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,30 +517,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKHook_Example/Pods-KKHook_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44701DF8B1BB6F090B022579 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		88E891BBB27BED8594BEE1C3 /* [CP] Check Pods Manifest.lock */ = {
@@ -563,6 +539,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A32821754E65DF4CF42AAB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
+				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

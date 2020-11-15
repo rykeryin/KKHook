@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '0.2.2'
+  s.version          = '0.2.4'
   s.summary          = 'A short description of KKHook.'
 
 # This description is used to generate tags and improve search results.
@@ -33,16 +33,17 @@ TODO: Add long description of the pod here.
   s.source_files = 'KKHook/Classes/**/*'
   
   # 第三方非开源framework(多个)
-     s.vendored_frameworks = [
-                             'KKHook/Classes/Dobby.framework'
-                             ]
+#     s.vendored_frameworks = [
+#                             'KKHook/Classes/Dobby.framework'
+#                             ]
   
   # s.resource_bundles = {
   #   'KKHook' => ['KKHook/Assets/*.png']
   # }
 
-  # s.public_header_files = 'KKHook/Classes/*.h'
-   s.vendored_libraries = "Dobby"
-#   s.dependency 'Dobby', :path => './'
+#   s.public_header_files = 'KKHook/Classes/**/*.{h}'
+   s.vendored_libraries = "KKHook/Classes/libDobby.a"
+   
+#   s.dependency 'Dobby', :path => 'KKHook/Classes/'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

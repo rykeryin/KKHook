@@ -7,7 +7,6 @@
 //
 
 #import "KKAppDelegate.h"
-#import <Dobby/dobby.h>
 #import <KKHook.h>
 #import "KKViewController.h"
 #import "Fish.h"
