@@ -14,7 +14,7 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* KKAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* KKAppDelegate.mm */; };
+		6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* KKAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* KKViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -23,15 +23,16 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		730854F7255C349600A7FCE5 /* KKHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 730854F6255C349600A7FCE5 /* KKHookExample.m */; };
-		7365986C255FC9E300E03BA1 /* Shark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73659863255FC9E300E03BA1 /* Shark.framework */; };
-		73659873255FC9E300E03BA1 /* SharkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73659872255FC9E300E03BA1 /* SharkTests.m */; };
-		73659878255FC9E300E03BA1 /* Shark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73659863255FC9E300E03BA1 /* Shark.framework */; };
-		7365987A255FC9E300E03BA1 /* Shark.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73659863255FC9E300E03BA1 /* Shark.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		73659886255FCA0400E03BA1 /* Fish.h in Headers */ = {isa = PBXBuildFile; fileRef = 73659884255FCA0400E03BA1 /* Fish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73659887255FCA0400E03BA1 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 73659885255FCA0400E03BA1 /* Fish.m */; };
-		736598AC25602B9500E03BA1 /* KKSharkFishExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 736598AB25602B9500E03BA1 /* KKSharkFishExample.m */; };
-		738B2887255F944F003103A9 /* Dobby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738B2886255F944F003103A9 /* Dobby.framework */; };
+		730854F7255C349600A7FCE5 /* KKClassHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 730854F6255C349600A7FCE5 /* KKClassHookExample.m */; };
+		73605C70256101AD003308F6 /* TestMachO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73605C67256101AD003308F6 /* TestMachO.framework */; };
+		73605C77256101AD003308F6 /* TestMachOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605C76256101AD003308F6 /* TestMachOTests.m */; };
+		73605C79256101AD003308F6 /* TestMachO.h in Headers */ = {isa = PBXBuildFile; fileRef = 73605C69256101AD003308F6 /* TestMachO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73605C7C256101AD003308F6 /* TestMachO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73605C67256101AD003308F6 /* TestMachO.framework */; };
+		73605C7D256101AD003308F6 /* TestMachO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73605C67256101AD003308F6 /* TestMachO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73605C89256101D4003308F6 /* Fish.h in Headers */ = {isa = PBXBuildFile; fileRef = 73605C87256101D4003308F6 /* Fish.h */; };
+		73605C8A256101D4003308F6 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605C88256101D4003308F6 /* Fish.m */; };
+		73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CBE256103C9003308F6 /* KKSymbolHookExample.m */; };
+		73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CC4256103DC003308F6 /* KKAddressHookExample.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -43,26 +44,26 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = KKHook;
 		};
-		7365986D255FC9E300E03BA1 /* PBXContainerItemProxy */ = {
+		73605C71256101AD003308F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73659862255FC9E300E03BA1;
-			remoteInfo = Shark;
+			remoteGlobalIDString = 73605C66256101AD003308F6;
+			remoteInfo = TestMachO;
 		};
-		7365986F255FC9E300E03BA1 /* PBXContainerItemProxy */ = {
+		73605C73256101AD003308F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = KKHook_Example;
 		};
-		73659876255FC9E300E03BA1 /* PBXContainerItemProxy */ = {
+		73605C7A256101AD003308F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73659862255FC9E300E03BA1;
-			remoteInfo = Shark;
+			remoteGlobalIDString = 73605C66256101AD003308F6;
+			remoteInfo = TestMachO;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,7 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7365987A255FC9E300E03BA1 /* Shark.framework in Embed Frameworks */,
+				73605C7D256101AD003308F6 /* TestMachO.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +94,7 @@
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* KKHook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKHook-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* KKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* KKAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KKAppDelegate.mm; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* KKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* KKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -105,20 +106,18 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6A584849D380F8967966D7E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		730854F6255C349600A7FCE5 /* KKHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKHookExample.m; sourceTree = "<group>"; };
+		730854F6255C349600A7FCE5 /* KKClassHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKClassHookExample.m; sourceTree = "<group>"; };
+		73605C67256101AD003308F6 /* TestMachO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestMachO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73605C69256101AD003308F6 /* TestMachO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMachO.h; sourceTree = "<group>"; };
+		73605C6A256101AD003308F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73605C6F256101AD003308F6 /* TestMachOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMachOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73605C76256101AD003308F6 /* TestMachOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMachOTests.m; sourceTree = "<group>"; };
+		73605C78256101AD003308F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73605C87256101D4003308F6 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		73605C88256101D4003308F6 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		73605CBE256103C9003308F6 /* KKSymbolHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSymbolHookExample.m; sourceTree = "<group>"; };
+		73605CC4256103DC003308F6 /* KKAddressHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAddressHookExample.m; sourceTree = "<group>"; };
 		7365984A255FC63600E03BA1 /* Shark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shark.framework; path = KKHook/Shark.framework; sourceTree = "<group>"; };
-		73659863255FC9E300E03BA1 /* Shark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73659866255FC9E300E03BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7365986B255FC9E300E03BA1 /* SharkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73659872255FC9E300E03BA1 /* SharkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharkTests.m; sourceTree = "<group>"; };
-		73659874255FC9E300E03BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73659884255FCA0400E03BA1 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
-		73659885255FCA0400E03BA1 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
-		736598A6256026CF00E03BA1 /* KKSymbolHook1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKSymbolHook1.h; sourceTree = "<group>"; };
-		736598AA25602B9500E03BA1 /* KKSharkFishExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKSharkFishExample.h; sourceTree = "<group>"; };
-		736598AB25602B9500E03BA1 /* KKSharkFishExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSharkFishExample.m; sourceTree = "<group>"; };
-		738B2886255F944F003103A9 /* Dobby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dobby.framework; sourceTree = "<group>"; };
-		738B288A255F94B5003103A9 /* dobby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dobby.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9336FE0AD4F2D4F7E0D72A72 /* Pods_KKHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D8C91159021345CD3CD7A5 /* Pods-KKHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKHook_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,11 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				73605C7C256101AD003308F6 /* TestMachO.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				73659878255FC9E300E03BA1 /* Shark.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				01EB43BAA577897A2C17FC94 /* Pods_KKHook_Example.framework in Frameworks */,
-				738B2887255F944F003103A9 /* Dobby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,18 +150,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73659860255FC9E300E03BA1 /* Frameworks */ = {
+		73605C64256101AD003308F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73659868255FC9E300E03BA1 /* Frameworks */ = {
+		73605C6C256101AD003308F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7365986C255FC9E300E03BA1 /* Shark.framework in Frameworks */,
+				73605C70256101AD003308F6 /* TestMachO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +185,8 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for KKHook */,
 				6003F5B5195388D20070C39A /* Tests */,
-				73659864255FC9E300E03BA1 /* Shark */,
-				73659871255FC9E300E03BA1 /* SharkTests */,
+				73605C68256101AD003308F6 /* TestMachO */,
+				73605C75256101AD003308F6 /* TestMachOTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				05D7D21BE3F0D6A15BB486BD /* Pods */,
@@ -200,8 +198,8 @@
 			children = (
 				6003F58A195388D20070C39A /* KKHook_Example.app */,
 				6003F5AE195388D20070C39A /* KKHook_Tests.xctest */,
-				73659863255FC9E300E03BA1 /* Shark.framework */,
-				7365986B255FC9E300E03BA1 /* SharkTests.xctest */,
+				73605C67256101AD003308F6 /* TestMachO.framework */,
+				73605C6F256101AD003308F6 /* TestMachOTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,14 +221,11 @@
 		6003F593195388D20070C39A /* Example for KKHook */ = {
 			isa = PBXGroup;
 			children = (
-				736598AA25602B9500E03BA1 /* KKSharkFishExample.h */,
-				736598AB25602B9500E03BA1 /* KKSharkFishExample.m */,
-				736598A6256026CF00E03BA1 /* KKSymbolHook1.h */,
-				738B288A255F94B5003103A9 /* dobby.h */,
-				738B2886255F944F003103A9 /* Dobby.framework */,
-				730854F6255C349600A7FCE5 /* KKHookExample.m */,
+				730854F6255C349600A7FCE5 /* KKClassHookExample.m */,
+				73605CBE256103C9003308F6 /* KKSymbolHookExample.m */,
+				73605CC4256103DC003308F6 /* KKAddressHookExample.m */,
 				6003F59C195388D20070C39A /* KKAppDelegate.h */,
-				6003F59D195388D20070C39A /* KKAppDelegate.mm */,
+				6003F59D195388D20070C39A /* KKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KKViewController.h */,
 				6003F5A6195388D20070C39A /* KKViewController.m */,
@@ -282,33 +277,35 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		73659864255FC9E300E03BA1 /* Shark */ = {
+		73605C68256101AD003308F6 /* TestMachO */ = {
 			isa = PBXGroup;
 			children = (
-				73659884255FCA0400E03BA1 /* Fish.h */,
-				73659885255FCA0400E03BA1 /* Fish.m */,
-				73659866255FC9E300E03BA1 /* Info.plist */,
+				73605C87256101D4003308F6 /* Fish.h */,
+				73605C88256101D4003308F6 /* Fish.m */,
+				73605C69256101AD003308F6 /* TestMachO.h */,
+				73605C6A256101AD003308F6 /* Info.plist */,
 			);
-			path = Shark;
+			path = TestMachO;
 			sourceTree = "<group>";
 		};
-		73659871255FC9E300E03BA1 /* SharkTests */ = {
+		73605C75256101AD003308F6 /* TestMachOTests */ = {
 			isa = PBXGroup;
 			children = (
-				73659872255FC9E300E03BA1 /* SharkTests.m */,
-				73659874255FC9E300E03BA1 /* Info.plist */,
+				73605C76256101AD003308F6 /* TestMachOTests.m */,
+				73605C78256101AD003308F6 /* Info.plist */,
 			);
-			path = SharkTests;
+			path = TestMachOTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7365985E255FC9E300E03BA1 /* Headers */ = {
+		73605C62256101AD003308F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73659886255FCA0400E03BA1 /* Fish.h in Headers */,
+				73605C89256101D4003308F6 /* Fish.h in Headers */,
+				73605C79256101AD003308F6 /* TestMachO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +326,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				73659877255FC9E300E03BA1 /* PBXTargetDependency */,
+				73605C7B256101AD003308F6 /* PBXTargetDependency */,
 			);
 			name = KKHook_Example;
 			productName = KKHook;
@@ -356,41 +353,41 @@
 			productReference = 6003F5AE195388D20070C39A /* KKHook_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		73659862255FC9E300E03BA1 /* Shark */ = {
+		73605C66256101AD003308F6 /* TestMachO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7365987B255FC9E300E03BA1 /* Build configuration list for PBXNativeTarget "Shark" */;
+			buildConfigurationList = 73605C82256101AD003308F6 /* Build configuration list for PBXNativeTarget "TestMachO" */;
 			buildPhases = (
-				7365985E255FC9E300E03BA1 /* Headers */,
-				7365985F255FC9E300E03BA1 /* Sources */,
-				73659860255FC9E300E03BA1 /* Frameworks */,
-				73659861255FC9E300E03BA1 /* Resources */,
+				73605C62256101AD003308F6 /* Headers */,
+				73605C63256101AD003308F6 /* Sources */,
+				73605C64256101AD003308F6 /* Frameworks */,
+				73605C65256101AD003308F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Shark;
-			productName = Shark;
-			productReference = 73659863255FC9E300E03BA1 /* Shark.framework */;
+			name = TestMachO;
+			productName = TestMachO;
+			productReference = 73605C67256101AD003308F6 /* TestMachO.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7365986A255FC9E300E03BA1 /* SharkTests */ = {
+		73605C6E256101AD003308F6 /* TestMachOTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7365987E255FC9E300E03BA1 /* Build configuration list for PBXNativeTarget "SharkTests" */;
+			buildConfigurationList = 73605C83256101AD003308F6 /* Build configuration list for PBXNativeTarget "TestMachOTests" */;
 			buildPhases = (
-				73659867255FC9E300E03BA1 /* Sources */,
-				73659868255FC9E300E03BA1 /* Frameworks */,
-				73659869255FC9E300E03BA1 /* Resources */,
+				73605C6B256101AD003308F6 /* Sources */,
+				73605C6C256101AD003308F6 /* Frameworks */,
+				73605C6D256101AD003308F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7365986E255FC9E300E03BA1 /* PBXTargetDependency */,
-				73659870255FC9E300E03BA1 /* PBXTargetDependency */,
+				73605C72256101AD003308F6 /* PBXTargetDependency */,
+				73605C74256101AD003308F6 /* PBXTargetDependency */,
 			);
-			name = SharkTests;
-			productName = SharkTests;
-			productReference = 7365986B255FC9E300E03BA1 /* SharkTests.xctest */;
+			name = TestMachOTests;
+			productName = TestMachOTests;
+			productReference = 73605C6F256101AD003308F6 /* TestMachOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -410,12 +407,12 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
-					73659862255FC9E300E03BA1 = {
+					73605C66256101AD003308F6 = {
 						CreatedOnToolsVersion = 12.2;
 						DevelopmentTeam = SCM7T5H8ND;
 						ProvisioningStyle = Automatic;
 					};
-					7365986A255FC9E300E03BA1 = {
+					73605C6E256101AD003308F6 = {
 						CreatedOnToolsVersion = 12.2;
 						DevelopmentTeam = SCM7T5H8ND;
 						ProvisioningStyle = Automatic;
@@ -439,8 +436,8 @@
 			targets = (
 				6003F589195388D20070C39A /* KKHook_Example */,
 				6003F5AD195388D20070C39A /* KKHook_Tests */,
-				73659862255FC9E300E03BA1 /* Shark */,
-				7365986A255FC9E300E03BA1 /* SharkTests */,
+				73605C66256101AD003308F6 /* TestMachO */,
+				73605C6E256101AD003308F6 /* TestMachOTests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,14 +462,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73659861255FC9E300E03BA1 /* Resources */ = {
+		73605C65256101AD003308F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73659869255FC9E300E03BA1 /* Resources */ = {
+		73605C6D256101AD003308F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,11 +572,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* KKAppDelegate.mm in Sources */,
-				730854F7255C349600A7FCE5 /* KKHookExample.m in Sources */,
+				73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */,
+				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
+				730854F7255C349600A7FCE5 /* KKClassHookExample.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				736598AC25602B9500E03BA1 /* KKSharkFishExample.m in Sources */,
+				73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,19 +589,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7365985F255FC9E300E03BA1 /* Sources */ = {
+		73605C63256101AD003308F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73659887255FCA0400E03BA1 /* Fish.m in Sources */,
+				73605C8A256101D4003308F6 /* Fish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73659867255FC9E300E03BA1 /* Sources */ = {
+		73605C6B256101AD003308F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73659873255FC9E300E03BA1 /* SharkTests.m in Sources */,
+				73605C77256101AD003308F6 /* TestMachOTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,20 +613,20 @@
 			target = 6003F589195388D20070C39A /* KKHook_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
-		7365986E255FC9E300E03BA1 /* PBXTargetDependency */ = {
+		73605C72256101AD003308F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 73659862255FC9E300E03BA1 /* Shark */;
-			targetProxy = 7365986D255FC9E300E03BA1 /* PBXContainerItemProxy */;
+			target = 73605C66256101AD003308F6 /* TestMachO */;
+			targetProxy = 73605C71256101AD003308F6 /* PBXContainerItemProxy */;
 		};
-		73659870255FC9E300E03BA1 /* PBXTargetDependency */ = {
+		73605C74256101AD003308F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* KKHook_Example */;
-			targetProxy = 7365986F255FC9E300E03BA1 /* PBXContainerItemProxy */;
+			targetProxy = 73605C73256101AD003308F6 /* PBXContainerItemProxy */;
 		};
-		73659877255FC9E300E03BA1 /* PBXTargetDependency */ = {
+		73605C7B256101AD003308F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 73659862255FC9E300E03BA1 /* Shark */;
-			targetProxy = 73659876255FC9E300E03BA1 /* PBXContainerItemProxy */;
+			target = 73605C66256101AD003308F6 /* TestMachO */;
+			targetProxy = 73605C7A256101AD003308F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -861,7 +859,7 @@
 			};
 			name = Release;
 		};
-		7365987C255FC9E300E03BA1 /* Debug */ = {
+		73605C7E256101AD003308F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -880,13 +878,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Shark/Info.plist;
+				INFOPLIST_FILE = TestMachO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.Shark;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -895,7 +893,7 @@
 			};
 			name = Debug;
 		};
-		7365987D255FC9E300E03BA1 /* Release */ = {
+		73605C7F256101AD003308F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -915,13 +913,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Shark/Info.plist;
+				INFOPLIST_FILE = TestMachO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.Shark;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -930,7 +928,7 @@
 			};
 			name = Release;
 		};
-		7365987F255FC9E300E03BA1 /* Debug */ = {
+		73605C80256101AD003308F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -943,19 +941,19 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SharkTests/Info.plist;
+				INFOPLIST_FILE = TestMachOTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.SharkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachOTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKHook_Example.app/KKHook_Example";
 			};
 			name = Debug;
 		};
-		73659880255FC9E300E03BA1 /* Release */ = {
+		73605C81256101AD003308F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -969,12 +967,12 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SharkTests/Info.plist;
+				INFOPLIST_FILE = TestMachOTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.SharkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachOTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKHook_Example.app/KKHook_Example";
@@ -1011,20 +1009,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7365987B255FC9E300E03BA1 /* Build configuration list for PBXNativeTarget "Shark" */ = {
+		73605C82256101AD003308F6 /* Build configuration list for PBXNativeTarget "TestMachO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7365987C255FC9E300E03BA1 /* Debug */,
-				7365987D255FC9E300E03BA1 /* Release */,
+				73605C7E256101AD003308F6 /* Debug */,
+				73605C7F256101AD003308F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7365987E255FC9E300E03BA1 /* Build configuration list for PBXNativeTarget "SharkTests" */ = {
+		73605C83256101AD003308F6 /* Build configuration list for PBXNativeTarget "TestMachOTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7365987F255FC9E300E03BA1 /* Debug */,
-				73659880255FC9E300E03BA1 /* Release */,
+				73605C80256101AD003308F6 /* Debug */,
+				73605C81256101AD003308F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

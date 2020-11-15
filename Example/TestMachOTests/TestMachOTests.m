@@ -1,18 +1,18 @@
 //
-//  SharkTests.m
-//  SharkTests
+//  TestMachOTests.m
+//  TestMachOTests
 //
-//  Created by rykeryin on 2020/11/14.
+//  Created by rykeryin on 2020/11/15.
 //  Copyright © 2020 rykeryin. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface SharkTests : XCTestCase
+@interface TestMachOTests : XCTestCase
 
 @end
 
-@implementation SharkTests
+@implementation TestMachOTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

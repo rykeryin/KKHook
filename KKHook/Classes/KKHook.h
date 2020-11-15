@@ -6,7 +6,8 @@
 //  Copyright © 2020 Tencent. All rights reserved.
 //
 
-#import "KKClassHook.h"
-#import "KKSymbolHook.h"
-#import "KKHookManager.h"
-#define KKHookInit [[KKHookManager shared] startHook];
+#import <KKHook/KKClassHook.h>
+#import <KKHook/KKSymbolHook.h>
+//#import "KKHookManager.h"
+//#define KKHookInit [[KKHookManager shared] startHook];
+

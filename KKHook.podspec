@@ -32,6 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'KKHook/Classes/**/*'
   
+  # 第三方非开源framework(多个)
+     s.vendored_frameworks = [
+                             'KKHook/Classes/Dobby.framework'
+                             ]
+  
   # s.resource_bundles = {
   #   'KKHook' => ['KKHook/Assets/*.png']
   # }

@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <objc/runtime.h>
-#import "KKHookManager.h"
 
 #define KKClassHookImported(clsz) \
 @implementation clsz(add) \
 + (void)load { \
-     [KKHookedClasses addObject:[clsz class]]; \
+    KKHookClass([self class]); \
 }
 
 #define KKClassHookUnImported(clsz) \
@@ -21,10 +19,10 @@
 @end \
 KKClassHookImported(clsz)
 
-#define KKMethodHookVoid(body) - (void) orig_##body
+#define KKClassHookEnd  @end
 
+extern void KKHookClass(Class claz);
 
-#define KKClassHookEnd @end
 
 
 

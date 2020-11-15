@@ -57,6 +57,26 @@
                ReferencedContainer = "container:KKHook.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73605BAD2560F254003308F6"
+               BuildableName = "SharkTests.xctest"
+               BlueprintName = "SharkTests"
+               ReferencedContainer = "container:KKHook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73605C6E256101AD003308F6"
+               BuildableName = "TestMachOTests.xctest"
+               BlueprintName = "TestMachOTests"
+               ReferencedContainer = "container:KKHook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

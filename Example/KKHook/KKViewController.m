@@ -7,8 +7,7 @@
 //
 
 #import "KKViewController.h"
-#import <Shark/Fish.h>
-#import <Dobby/dobby.h>
+//#import <Dobby/dobby.h>
 //#import <KKHook/KKHook.h>
 //#import "KKSymbolHook.h"
 
@@ -24,9 +23,9 @@
 {
     [super viewDidLoad];
     
-    fishing(100);
+//    fishing(100);
     
-    void *f = fishing;
+//    void *f = fishing;
     
     if (!fopen("", "")) {
         printf("Open file failed!");

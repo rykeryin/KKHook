@@ -10,11 +10,10 @@
 #endif
 #endif
 
+#import "dobby.h"
 #import "fishhook.h"
 #import "KKClassHook.h"
 #import "KKHook.h"
-#import "KKHookManager.h"
-#import "KKSymbol.h"
 #import "KKSymbolHook.h"
 
 FOUNDATION_EXPORT double KKHookVersionNumber;
