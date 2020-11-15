@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'KKHook'
   s.version          = '0.3.1'
   s.summary          = 'A short description of KKHook.'
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
