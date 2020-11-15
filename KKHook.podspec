@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'KKHook/Classes/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.vendored_libraries = "Dobby"
+#   s.dependency 'Dobby', :path => './'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

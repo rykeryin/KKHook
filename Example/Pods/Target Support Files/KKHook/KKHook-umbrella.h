@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "fishhook.h"
+#import "KKClassHook.h"
+#import "KKHook.h"
+#import "KKHookManager.h"
+#import "KKSymbol.h"
+#import "KKSymbolHook.h"
 
 FOUNDATION_EXPORT double KKHookVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKHookVersionString[];

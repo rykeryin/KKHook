@@ -5,9 +5,10 @@
 //  Created by rykeryin on 2020/11/11.
 //  Copyright © 2020 rykeryin. All rights reserved.
 //
-
-#import <KKHook/KKHook.h>
 #import <UIKit/UIKit.h>
+#import <KKHook/KKHook.h>
+#import <Dobby/dobby.h>
+#import <Shark/Fish.h>
 
 // Example: Hook UnImported KKViewController
 KKClassHookUnImported(KKViewController)
@@ -15,6 +16,11 @@ KKClassHookUnImported(KKViewController)
     printf("KKViewController viewDidLoad hooked 1 \n");
     [self hook1_viewDidLoad];
 }
+
+KKMethodHookVoid(viewWillAppear:(BOOL)animated {
+    [self orig_viewWillAppear:YES];
+})
+
 KKClassHookEnd
 
 // Example: Hook Imported UIViewController
@@ -33,3 +39,5 @@ KKSymbolHook(FILE *, fopen, const char * __restrict __filename, const char * __r
     return orig_fopen(__filename, __mode);
 }
 KKSymbolHookRegister(fopen);
+
+

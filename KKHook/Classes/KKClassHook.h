@@ -21,4 +21,11 @@
 @end \
 KKClassHookImported(clsz)
 
+#define KKMethodHookVoid(body) - (void) orig_##body
+
+
 #define KKClassHookEnd @end
+
+
+
+
