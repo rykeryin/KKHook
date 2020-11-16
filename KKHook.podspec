@@ -8,11 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A short description of KKHook.'
   
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64 i386' }
+#  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7', 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -36,7 +37,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'KKHook/Classes/**/*'
   
   # 第三方非开源framework(多个)
-#     s.vendored_frameworks = [
+  s.vendored_frameworks = "KKHook/Frameworks/Dobby.framework"
 #                             'KKHook/Classes/Dobby.framework'
 #                             ]
   
@@ -45,7 +46,7 @@ TODO: Add long description of the pod here.
   # }
 
 #   s.public_header_files = 'KKHook/Classes/**/*.{h}'
-   s.vendored_libraries = "KKHook/Classes/libDobby.a"
+   s.libraries = 'c++'
    
 #   s.dependency 'Dobby', :path => 'KKHook/Classes/'
   # s.dependency 'AFNetworking', '~> 2.3'
