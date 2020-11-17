@@ -38,15 +38,9 @@ TODO: Add long description of the pod here.
   
   # 第三方非开源framework(多个)
   s.vendored_frameworks = "KKHook/Frameworks/Dobby.framework"
-#                             'KKHook/Classes/Dobby.framework'
-#                             ]
-  
-  # s.resource_bundles = {
-  #   'KKHook' => ['KKHook/Assets/*.png']
-  # }
-
-#   s.public_header_files = 'KKHook/Classes/**/*.{h}'
-   s.libraries = 'c++'
+  s.public_header_files = 'KKHook/Frameworks/Dobby.framework/Headers/**.h','KKHook/Classes/**.h'
+  s.libraries = 'c++'
+#  s.frameworks = 'Fundation'
    
 #   s.dependency 'Dobby', :path => 'KKHook/Classes/'
   # s.dependency 'AFNetworking', '~> 2.3'
