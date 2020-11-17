@@ -40,8 +40,10 @@
     for (int i = 0; i < image_count; ++i)
     {
         image = image_array + i;
+//        "/private/var/containers/Bundle/Application/D8DE3596-8DAB-4F05-A63A-24F4AF4F9920/KKHook_Example.app/KKHook_Example"
         NSString * imagePath = [NSString stringWithUTF8String:image->imageFilePath];
-        if([imagePath rangeOfString:imageName].location!=NSNotFound)
+        NSString *curImageName = [[[[imagePath componentsSeparatedByString:@"/"] lastObject] componentsSeparatedByString:@"."] firstObject];
+        if([curImageName isEqualToString:imageName])
         {
             return (UInt64)(image->imageLoadAddress);
         }
