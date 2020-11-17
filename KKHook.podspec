@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KKHook/Classes/**/*'
+  s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/Dobby.framework/Headers/**.h'
   
   # 第三方非开源framework(多个)
   s.vendored_frameworks = "KKHook/Frameworks/Dobby.framework"

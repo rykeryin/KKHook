@@ -22,7 +22,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "KKHook/Classes/**/*",
+  "source_files": [
+    "KKHook/Classes/**/*",
+    "KKHook/Frameworks/Dobby.framework/Headers/**.h"
+  ],
   "vendored_frameworks": "KKHook/Frameworks/Dobby.framework",
   "public_header_files": [
     "KKHook/Frameworks/Dobby.framework/Headers/**.h",

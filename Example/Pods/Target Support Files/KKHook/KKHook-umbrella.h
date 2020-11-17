@@ -11,7 +11,6 @@
 #endif
 
 #import "dobby.h"
-#import "dobby.h"
 #import "fishhook.h"
 #import "KKClassHook.h"
 #import "KKHook.h"
