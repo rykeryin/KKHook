@@ -11,20 +11,18 @@
 
 #define KKSymbolHook(rt_type, symbol, ...) \
 static rt_type (*orig_##symbol)(__VA_ARGS__); \
-rt_type my_##symbol(__VA_ARGS__)
+static rt_type my_##symbol(__VA_ARGS__)
 
 #define KKSymbolHookRegister(symbol) \
-@interface KKSymbolHookRegister_##symbol: NSObject \
-@end \
-@implementation KKSymbolHookRegister_##symbol \
+@implementation PrivateKKSymbolHookCore(symbol) \
 + (void)load {  \
     printf("\n*************************\n😄 Register Symbol Hook: %s\n************************\n\n", #symbol); \
-    [KKSymbolHook hook:image symbolName:#symbol replace:(void *)&my_##symbol origin:(void **)&orig_##symbol]; \
+    [self hook:image symbolName:#symbol replace:(void *)&my_##symbol origin:(void **)&orig_##symbol]; \
 } \
 @end
 
 
-@interface KKSymbolHook : NSObject
+@interface PrivateKKSymbolHookCore : NSObject
 
 + (int)hook:(const char *)image symbolName:(const char *)symbol replace:(void *)replace_call origin:(void **)origin_call;
 

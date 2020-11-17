@@ -13,7 +13,7 @@
 #include <mach-o/dyld_images.h>
 #include <mach-o/dyld.h>
 
-@implementation KKAddressHook
+@implementation PrivateKKAddressHookCore
 
 + (void)load {
 //    void *address2 = dobby_register_image_load_callback(<#linker_load_callback_t func#>)
