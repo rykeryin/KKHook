@@ -25,9 +25,9 @@ _fishFail:
 0000000000003e54         sub        rsp, 0x10
 */
 
-KKAddressHookFileInit(fishing, 0x0000000000003e80)
+KKAddressHookFileInit(TestMachO)
 
 KKAddressHook(int, fishSuccess, void) {
     return orig_fishSuccess();
 }
-KKAddressHookRegister(fishSuccess, 0x0000000000003e20)
+KKAddressHookRegister(fishSuccess, 0x0000000000007e30)

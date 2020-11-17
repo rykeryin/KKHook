@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'A short description of KKHook.'
   
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }

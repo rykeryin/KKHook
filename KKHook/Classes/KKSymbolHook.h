@@ -9,13 +9,14 @@
 #import <Foundation/Foundation.h>
 
 /// 指定一个可以从 .h 文件导入的方法地址。可用Hopper、IDA等工具查看方法地址
-#define KKAddressHookFileInit(symbol, symbolAddressOffset) \
+#define KKAddressHookFileInit(imageName) \
 static UInt64 loadAddress = 0; \
-@interface KKAddressHookFileInit_##symbol: NSObject \
+@interface KKAddressHookFileInit_##imageName: NSObject \
 @end \
-@implementation KKAddressHookFileInit_##symbol \
+@implementation KKAddressHookFileInit_##imageName \
 + (void)load {  \
-    loadAddress = (UInt64)((void *)&symbol) - symbolAddressOffset; \
+    loadAddress = [KKDobbyHook readImageAddress:@#imageName]; \
+    printf("imageName: %s loadAddress: %lld", #imageName, loadAddress); \
 } \
 @end
 
@@ -53,6 +54,7 @@ rt_type my_##symbol(__VA_ARGS__)
 //KKDobbyHook(hookAddress, (void *)&my_##symbol, (void **)&orig_##symbol);
 @interface KKDobbyHook: NSObject
 + (int)hook:(void *)function_address replace:(void *)replace_call origin:(void **)origin_call;
++ (UInt64)readImageAddress:(NSString *)imageName;
 @end
 
 
