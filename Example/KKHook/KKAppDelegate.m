@@ -7,7 +7,6 @@
 //
 
 #import "KKAppDelegate.h"
-#import <KKHook.h>
 #import "KKViewController.h"
 #import "Fish.h"
 
@@ -22,47 +21,11 @@
 }
 
 @end
-
-
-
-
-
-
-//KKClassHookUnImported(KKViewController)
-//- (void)hook2_viewDidLoad {
-//    printf("KKViewController viewDidLoad hooked 2 \n");
-//    [self hook2_viewDidLoad];
-//}
-//KKClassHookEnd(KKViewController)
 //
-
-
-//static UInt64 flagStaticAddress;
-//static UInt64 flagDynamicAddress;
-
-
-//static void KKAddressHookInit(UInt64 frameworkStartAddress) {
+//KKAddressHookFileInit(TestMachO, 2)
 //
+//KKAddressHook(int, fishSuccess2, void) {
+//    return orig_fishSuccess2();
 //}
-
-
-
-
-//KKAddressHookInit(fish, 0x0000000000003f40)
-
-
-//@interface KKAddressHookRegiser_fish: NSObject
-//@end
-//@implementation KKAddressHookRegiser_fish
-//- (void)load {
-////    void *f = (void *)&fish;
-////    frameworkStartAddress = (UInt64)((void *)&test) - 0x0000000000003f40;
-//}
-//@end
-
-//KKAddressHook(void, fishSuccess) {
-//    printf("xxxxx");
-//}
-//KKAddressHookRegister(fishSuccess, 0x0000000000003f20)
-
+//KKAddressHookRegister(fishSuccess2, 0x0000000000007e30)
 

@@ -6,7 +6,7 @@
 //  Copyright © 2020 rykeryin. All rights reserved.
 //
 
-#import <KKHook.h>
+#import <KKHook/KKAddressHook.h>
 #import "Fish.h"
 /*
 _fishing:
@@ -25,9 +25,9 @@ _fishFail:
 0000000000003e54         sub        rsp, 0x10
 */
 
-KKAddressHookFileInit(TestMachO)
+KKAddressHookFileInit(TestMachO, 1)
 
-KKAddressHook(int, fishSuccess, void) {
-    return orig_fishSuccess();
+KKAddressHook(int, fishSuccess1, void) {
+    return orig_fishSuccess1();
 }
-KKAddressHookRegister(fishSuccess, 0x0000000000007e30)
+KKAddressHookRegister(fishSuccess1, 0x0000000000007e30)

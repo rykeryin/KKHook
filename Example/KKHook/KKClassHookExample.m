@@ -6,9 +6,8 @@
 //  Copyright © 2020 rykeryin. All rights reserved.
 //
 
-#import <KKHook.h>
-#import "KKViewController.h"
-
+#import <KKHook/KKClassHook.h>
+#import <UIKit/UIKit.h>
 
 KKClassHookUnImported(KKAppDelegate)
 
@@ -18,6 +17,7 @@ KKClassHookUnImported(KKAppDelegate)
 
 KKClassHookEnd
 
+#import "KKViewController.h"
 KKClassHookImported(KKViewController)
 
 - (void)hook_viewDidLoad {

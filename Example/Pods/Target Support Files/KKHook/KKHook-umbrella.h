@@ -12,8 +12,8 @@
 
 #import "dobby.h"
 #import "fishhook.h"
+#import "KKAddressHook.h"
 #import "KKClassHook.h"
-#import "KKHook.h"
 #import "KKSymbolHook.h"
 
 FOUNDATION_EXPORT double KKHookVersionNumber;

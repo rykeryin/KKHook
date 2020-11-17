@@ -6,11 +6,14 @@
 //  Copyright © 2020 rykeryin. All rights reserved.
 //
 
-#import <KKHook.h>
 #import "Fish.h"
+#import <objc/message.h>
+#import <KKHook/KKSymbolHook.h>
 
-KKSymbolHook(int, fishing, int food) {
-    return orig_fishing(food);
+KKSymbolImageInitInFile(TestMachO)
+
+KKSymbolHook(int, fishSuccess, void) {
+    printf("fishSuccess hooked");
+    return orig_fishSuccess();
 }
-KKSymbolHookRegister(fishing)
-
+KKSymbolHookRegister(fishSuccess)
