@@ -1,6 +1,6 @@
 {
   "name": "KKHook",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "summary": "A short description of KKHook.",
   "pod_target_xcconfig": {
     "VALID_ARCHS": "arm64 armv7",
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/rykeryin/KKHook.git",
-    "tag": "0.5.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -32,10 +32,5 @@
     "KKHook/Classes/**.h"
   ],
   "libraries": "c++",
-  "resources": "KKHook/scripts",
-  "script_phases": {
-    "name": "gen_hook_code",
-    "script": "python3 $PODS_ROOT/KKHook/scripts/gen_hook_code.py $PODS_TARGET_SRCROOT \"🌹 Start Generate Hook Code\"",
-    "execution_position": "before_compile"
-  }
+  "resources": "KKHook/scripts"
 }

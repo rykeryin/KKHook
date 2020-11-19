@@ -50,6 +50,6 @@ TODO: Add long description of the pod here.
 
   s.resources = "KKHook/scripts"
 
-  s.script_phase = { :name => 'gen_hook_code', :script => 'python3 $PODS_ROOT/KKHook/scripts/gen_hook_code.py $PODS_TARGET_SRCROOT "🌹 Start Generate Hook Code"', :execution_position => :before_compile }
+#  s.script_phase = { :name => 'gen_hook_code', :script => 'python3 $PODS_ROOT/KKHook/scripts/gen_hook_code.py $PODS_TARGET_SRCROOT "🌹 Start Generate Hook Code"', :execution_position => :before_compile }
   
 end
