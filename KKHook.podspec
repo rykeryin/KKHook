@@ -6,6 +6,8 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+#pod trunk push --allow-warnings --verbose --skip-import-validation
+
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
   s.version          = '0.5.0'
@@ -44,4 +46,10 @@ TODO: Add long description of the pod here.
    
 #   s.dependency 'Dobby', :path => 'KKHook/Classes/'
   # s.dependency 'AFNetworking', '~> 2.3'
+#  PODS_ROOT
+
+  s.resources = "KKHook/scripts"
+
+  s.script_phase = { :name => 'gen_hook_code', :script => 'python3 $PODS_ROOT/KKHook/scripts/gen_hook_code.py $PODS_TARGET_SRCROOT "🌹 Start Generate Hook Code"', :execution_position => :before_compile }
+  
 end

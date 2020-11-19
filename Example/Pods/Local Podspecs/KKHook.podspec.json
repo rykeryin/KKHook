@@ -31,5 +31,11 @@
     "KKHook/Frameworks/Dobby.framework/Headers/**.h",
     "KKHook/Classes/**.h"
   ],
-  "libraries": "c++"
+  "libraries": "c++",
+  "resources": "KKHook/scripts",
+  "script_phases": {
+    "name": "gen_hook_code",
+    "script": "python3 $PODS_ROOT/KKHook/scripts/gen_hook_code.py $PODS_TARGET_SRCROOT \"🌹 Start Generate Hook Code\"",
+    "execution_position": "before_compile"
+  }
 }

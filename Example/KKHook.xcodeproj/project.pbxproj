@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		730854F7255C349600A7FCE5 /* KKClassHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 730854F6255C349600A7FCE5 /* KKClassHookExample.m */; };
+		7323BC1F2566BD50003F3600 /* KKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323BC1E2566BD4F003F3600 /* KKAppDelegate.m */; };
 		73605C70256101AD003308F6 /* TestMachO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73605C67256101AD003308F6 /* TestMachO.framework */; };
 		73605C77256101AD003308F6 /* TestMachOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605C76256101AD003308F6 /* TestMachOTests.m */; };
 		73605C79256101AD003308F6 /* TestMachO.h in Headers */ = {isa = PBXBuildFile; fileRef = 73605C69256101AD003308F6 /* TestMachO.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -107,6 +108,8 @@
 		6A584849D380F8967966D7E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730854F6255C349600A7FCE5 /* KKClassHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKClassHookExample.m; sourceTree = "<group>"; };
+		7323BBF82566BA03003F3600 /* KKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAppDelegate.h; sourceTree = "<group>"; };
+		7323BC1E2566BD4F003F3600 /* KKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAppDelegate.m; sourceTree = "<group>"; };
 		73605C67256101AD003308F6 /* TestMachO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestMachO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73605C69256101AD003308F6 /* TestMachO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMachO.h; sourceTree = "<group>"; };
 		73605C6A256101AD003308F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -221,6 +224,7 @@
 		6003F593195388D20070C39A /* Example for KKHook */ = {
 			isa = PBXGroup;
 			children = (
+				7323BBEF2566B9BB003F3600 /* hook_test */,
 				730854F6255C349600A7FCE5 /* KKClassHookExample.m */,
 				73605CBE256103C9003308F6 /* KKSymbolHookExample.m */,
 				73605CC4256103DC003308F6 /* KKAddressHookExample.m */,
@@ -277,6 +281,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7323BBEF2566B9BB003F3600 /* hook_test */ = {
+			isa = PBXGroup;
+			children = (
+				7323BBF82566BA03003F3600 /* KKAppDelegate.h */,
+				7323BC1E2566BD4F003F3600 /* KKAppDelegate.m */,
+			);
+			path = hook_test;
+			sourceTree = "<group>";
+		};
 		73605C68256101AD003308F6 /* TestMachO */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +335,7 @@
 				6003F588195388D20070C39A /* Resources */,
 				73659879255FC9E300E03BA1 /* Embed Frameworks */,
 				18A062C4B76439413E0BED3B /* [CP] Embed Pods Frameworks */,
+				7323BB972566AF53003F3600 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -519,6 +533,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKHook_Example/Pods-KKHook_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7323BB972566AF53003F3600 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
 		88E891BBB27BED8594BEE1C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -572,6 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7323BC1F2566BD50003F3600 /* KKAppDelegate.m in Sources */,
 				73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */,
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				730854F7255C349600A7FCE5 /* KKClassHookExample.m in Sources */,

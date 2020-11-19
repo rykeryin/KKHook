@@ -9,6 +9,7 @@
 #import "KKAppDelegate.h"
 #import "KKViewController.h"
 #import "Fish.h"
+#import <KKHook/KKHook.h>
 
 @implementation KKAppDelegate
 
@@ -21,11 +22,6 @@
 }
 
 @end
-//
-//KKAddressHookFileInit(TestMachO, 2)
-//
-//KKAddressHook(int, fishSuccess2, void) {
-//    return orig_fishSuccess2();
-//}
-//KKAddressHookRegister(fishSuccess2, 0x0000000000007e30)
+
+//KKAddressHookFileInit(UIKit)
 

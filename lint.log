@@ -1,0 +1,190 @@
+
+ -> KKHook  KKHook (0.5.0) - Analyzing on iOS 9.0 platform.
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-App`: (``)
+
+Fetching external sources
+-> Fetching podspec for `KKHook` from `/Users/rykeryin/Coding/Publish/KKHook`
+
+Resolving dependencies of 
+
+Comparing resolved specification to the sandbox manifest
+  A KKHook
+
+Downloading dependencies
+
+-> Installing KKHook (0.5.0)
+  - Running pre install hooks
+  - Writing Lockfile in `../../../../../var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Podfile.lock`
+  - Writing Manifest in `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Manifest.lock`
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Adding development pod helper files
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `KKHook` iOS 9.0
+      - Generating module map file at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/KKHook/KKHook.modulemap`
+      - Generating umbrella header at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/KKHook/KKHook-umbrella.h`
+      - Generating Info.plist file at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/KKHook/KKHook-Info.plist`
+      - Generating dummy source at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/KKHook/KKHook-dummy.m`
+  - Installing Aggregate Targets
+    - Installing target `Pods-App` iOS 9.0
+      - Generating Info.plist file at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/Pods-App/Pods-App-Info.plist`
+      - Generating module map file at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/Pods-App/Pods-App.modulemap`
+      - Generating umbrella header at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/Pods-App/Pods-App-umbrella.h`
+      - Generating dummy source at `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
+  - Stabilizing target UUIDs
+  - Running post install hooks
+  - Writing Xcode project file to `../../../../../private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+
+Integrating target `Pods-App` (`../../../../../var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/App.xcodeproj` project)
+  Adding Build Phase '[CP] Embed Pods Frameworks' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+  Building with `xcodebuild`.
+    $ /usr/bin/xcodebuild clean build -workspace /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/App.xcworkspace -scheme KKHook -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=A040C05E-F2F8-476B-A1EA-5AE817296C66
+    Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -workspace /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/App.xcworkspace -scheme KKHook -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=A040C05E-F2F8-476B-A1EA-5AE817296C66
+    
+    Build settings from command line:
+        CODE_SIGN_IDENTITY = -
+        SDKROOT = iphonesimulator14.2
+    
+    note: Using new build system
+    note: Building targets in parallel
+    note: Using codesigning identity override: -
+    
+    ** CLEAN SUCCEEDED **
+    
+    note: Using new build system
+    note: Building targets in parallel
+    note: Using codesigning identity override: -
+    note: Planning build
+    note: Constructing build description
+    warning: There are no architectures to compile for because the VALID_ARCHS build setting is an empty list. (in target 'KKHook' from project 'Pods')
+    CreateBuildDirectory /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-create-build-directory /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products
+    
+    CreateBuildDirectory /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-create-build-directory /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex
+    
+    MkDir /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        /bin/mkdir -p /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework
+    
+    MkDir /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        /bin/mkdir -p /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook.hmap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook.hmap
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/all-product-headers.yaml (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-project-headers.hmap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-generated-files.hmap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-all-target-headers.hmap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-own-target-headers.hmap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-all-non-framework-target-headers.hmap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/KKHook-all-non-framework-target-headers.hmap
+    
+    CpHeader /private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target\ Support\ Files/KKHook/KKHook-umbrella.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/KKHook-umbrella.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /private/var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target\ Support\ Files/KKHook/KKHook-umbrella.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/module.modulemap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/module.modulemap
+    
+    CpHeader /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/fishhook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/fishhook.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/fishhook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    CpHeader /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKSymbolHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/KKSymbolHook.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKSymbolHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    CpHeader /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/KKHook.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    CpHeader /Users/rykeryin/Coding/Publish/KKHook/KKHook/Frameworks/Dobby.framework/Headers/dobby.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/dobby.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Coding/Publish/KKHook/KKHook/Frameworks/Dobby.framework/Headers/dobby.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    CpHeader /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKClassHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/KKClassHook.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKClassHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    ProcessInfoPlistFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Info.plist /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target\ Support\ Files/KKHook/KKHook-Info.plist (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-infoPlistUtility /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods/Target\ Support\ Files/KKHook/KKHook-Info.plist -producttype com.apple.product-type.framework -expandbuildsettings -format binary -platform iphonesimulator -o /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Info.plist
+    
+    CpHeader /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKAddressHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers/KKAddressHook.h (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Coding/Publish/KKHook/KKHook/Classes/KKAddressHook.h /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Headers
+    
+    Ditto /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/module.modulemap /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Modules/module.modulemap (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/module.modulemap /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework/Modules
+    
+    WriteAuxiliaryFile /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/DerivedSources/KKHook_vers.c (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        write-file /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/KKHook.build/DerivedSources/KKHook_vers.c
+    
+    RegisterExecutionPolicyException /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        builtin-RegisterExecutionPolicyException /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework
+    
+    Touch /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework (in target 'KKHook' from project 'Pods')
+        cd /var/folders/27/fmm84p2548q0tp03gxgsy9wc0000gn/T/CocoaPods-Lint-20201118-61440-eqfqdx-KKHook/Pods
+        /usr/bin/touch -c /Users/rykeryin/Library/Developer/Xcode/DerivedData/App-efhgfvbgqokgzybjsjybjlbbxfbe/Build/Products/Release-iphonesimulator/KKHook/KKHook.framework
+    
+    ** BUILD SUCCEEDED **
+    
+  Testing with `xcodebuild`.
+ -> KKHook (0.5.0)
+    - WARN  | summary: The summary is not meaningful.
+    - WARN  | url: There was a problem validating the URL https://github.com/rykeryin/KKHook.
+    - NOTE  | xcodebuild:  note: Using new build system
+    - NOTE  | xcodebuild:  note: Building targets in parallel
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Planning build
+    - NOTE  | [iOS] xcodebuild:  note: Constructing build description
+    - NOTE  | [iOS] xcodebuild:  warning: There are no architectures to compile for because the VALID_ARCHS build setting is an empty list. (in target 'KKHook' from project 'Pods')
+
+KKHook passed validation.

@@ -50,6 +50,7 @@
         NSString *curImageName = [[[[imagePath componentsSeparatedByString:@"/"] lastObject] componentsSeparatedByString:@"."] firstObject];
         if([curImageName isEqualToString:imageName])
         {
+            NSLog(@"imagePath: %@", imagePath);
             return (UInt64)(image->imageLoadAddress);
         }
     }
