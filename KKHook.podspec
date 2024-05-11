@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '0.6.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of KKHook.'
   
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
@@ -36,11 +36,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/Dobby.framework/Headers/**.h'
+  s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/**.h'
   
   # 第三方非开源framework(多个)
-  s.vendored_frameworks = "KKHook/Frameworks/Dobby.framework"
-  s.public_header_files = 'KKHook/Frameworks/Dobby.framework/Headers/**.h','KKHook/Classes/**.h'
+#  s.vendored_frameworks = "KKHook/Frameworks/Dobby.framework"
+  s.vendored_libraries = 'KKHook/Frameworks/libdobby.a'
+  s.public_header_files = 'KKHook/Classes/KKAddressHook.h', 'KKHook/Classes/KKClassHook.h', 'KKHook/Classes/KKSymbolHook.h'
   s.libraries = 'c++'
 #  s.frameworks = 'Fundation'
    
@@ -48,7 +49,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 #  PODS_ROOT
 
-  s.resources = "KKHook/scripts"
+#  s.resources = "KKHook/scripts"
 
 #  s.script_phase = { :name => 'gen_hook_code', :script => 'python3 $PODS_ROOT/KKHook/scripts/gen_hook_code.py $PODS_TARGET_SRCROOT "🌹 Start Generate Hook Code"', :execution_position => :before_compile }
   

@@ -9,7 +9,6 @@
 #import "KKAppDelegate.h"
 #import "KKViewController.h"
 #import "Fish.h"
-#import <KKHook/KKHook.h>
 
 @implementation KKAppDelegate
 

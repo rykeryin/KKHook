@@ -11,11 +11,13 @@
 #import <KKHook/KKSymbolHook.h>
 #import <AVFoundation/AVFoundation.h>
 
-KKSymbolImageInitInFile(TestMachO)
+KKSymbolHookMachO(TestMachO)
 
 KKSymbolHook(int, fishSuccess, void) {
     printf("fishSuccess hooked");
     return orig_fishSuccess();
-    [[AVAudioSession sharedInstance] setMode:AVAudioSessionModeVoiceChat error:nil];
 }
-KKSymbolHookRegister(fishSuccess)
+//KKSymbolHookRegister(fishSuccess)
+
+
+

@@ -6,9 +6,9 @@
 //
 
 #import "KKSymbolHook.h"
-#import <Dobby/dobby.h>
+#import "dobby.h"
 
-@implementation PrivateKKSymbolHookCore
+@implementation ___PrivatePrivateHookCore
 
 + (int)hook:(const char *)image symbolName:(const char *)symbol replace:(void *)replace_call origin:(void **)origin_call {
     void *function_address = DobbySymbolResolver(image, symbol);

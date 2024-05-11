@@ -24,13 +24,13 @@
   },
   "source_files": [
     "KKHook/Classes/**/*",
-    "KKHook/Frameworks/Dobby.framework/Headers/**.h"
+    "KKHook/Frameworks/**.h"
   ],
-  "vendored_frameworks": "KKHook/Frameworks/Dobby.framework",
+  "vendored_libraries": "KKHook/Frameworks/libdobby.a",
   "public_header_files": [
-    "KKHook/Frameworks/Dobby.framework/Headers/**.h",
-    "KKHook/Classes/**.h"
+    "KKHook/Classes/KKAddressHook.h",
+    "KKHook/Classes/KKClassHook.h",
+    "KKHook/Classes/KKSymbolHook.h"
   ],
-  "libraries": "c++",
-  "resources": "KKHook/scripts"
+  "libraries": "c++"
 }
