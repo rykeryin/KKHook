@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '2.1.0'
+  s.version          = '2.2.0'
   s.summary          = 'A short description of KKHook.'
   
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
@@ -37,8 +37,6 @@ TODO: Add long description of the pod here.
   s.platform = :ios, '12.0'
   
   s.ios.deployment_target = '12.0'
-  
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64', "VALID_ARCHS[sdk=iphonesimulator*]": "" }
   
   s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/**.h'
   
