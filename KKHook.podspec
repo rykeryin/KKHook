@@ -34,8 +34,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rykeryin/KKHook.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform = :ios, '9.0'
+  
   s.ios.deployment_target = '9.0'
-
+  
   s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/**.h'
   
   # 第三方非开源framework(多个)
