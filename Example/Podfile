@@ -4,7 +4,6 @@ platform :ios, '9.0'
 
 target 'KKHook_Example' do
   pod 'KKHook', :path => '../'
-
   target 'KKHook_Tests' do
     inherit! :search_paths
 
