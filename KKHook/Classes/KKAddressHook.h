@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@interface PrivateKKAddressHookCore: NSObject
++ (int)hook:(void *)function_address replace:(void *)replace_call origin:(void **)origin_call;
++ (UInt64)readImageAddress:(NSString *)imageName;
+@end
+
 /// 指定一个可以从 .h 文件导入的方法地址。可用Hopper、IDA等工具查看方法地址
 #define KKAddressHookFileInit(imageName) \
 static UInt64 loadAddress = 0; \
@@ -32,9 +37,20 @@ static rt_type my_##symbol(__VA_ARGS__)
 } \
 @end
 
-@interface PrivateKKAddressHookCore: NSObject
-+ (int)hook:(void *)function_address replace:(void *)replace_call origin:(void **)origin_call;
-+ (UInt64)readImageAddress:(NSString *)imageName;
-@end
+
+#define KKAddressHookWithMachO(image, offset, rt_type, symbol, ...) \
+static rt_type (*orig_##symbol)(__VA_ARGS__); \
+static rt_type my_##symbol(__VA_ARGS__); \
+@implementation PrivateKKAddressHookCore(symbol) \
++ (void)load {  \
+    printf("\n*************************\n😄 Register Address Hook: %s\n************************\n\n", #symbol); \
+    UInt64 loadAddress =  [self readImageAddress:@#image]; \
+    void *hookAddress = (void *)(loadAddress + offset);  \
+    [self hook:hookAddress replace:(void *)&my_##symbol origin:(void **)&orig_##symbol]; \
+} \
+@end \
+rt_type my_##symbol(__VA_ARGS__)
+
+
 
 

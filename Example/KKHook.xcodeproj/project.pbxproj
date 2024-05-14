@@ -32,6 +32,7 @@
 		73605C8A256101D4003308F6 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605C88256101D4003308F6 /* Fish.m */; };
 		73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CBE256103C9003308F6 /* KKSymbolHookExample.m */; };
 		73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CC4256103DC003308F6 /* KKAddressHookExample.m */; };
+		73FD48E82BF39CDD009AE6D5 /* KKFather.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FD48E72BF39CDD009AE6D5 /* KKFather.m */; };
 		7826A3D462D7CCC88F2A9B0D /* Pods_KKHook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3869698619AC40A9A0C181F /* Pods_KKHook_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EF471111D1242C5E89037161 /* Pods_KKHook_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99785C8A78CCC98247771125 /* Pods_KKHook_Tests.framework */; };
@@ -121,6 +122,8 @@
 		73605CBE256103C9003308F6 /* KKSymbolHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSymbolHookExample.m; sourceTree = "<group>"; };
 		73605CC4256103DC003308F6 /* KKAddressHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAddressHookExample.m; sourceTree = "<group>"; };
 		7365984A255FC63600E03BA1 /* Shark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shark.framework; path = KKHook/Shark.framework; sourceTree = "<group>"; };
+		73FD48E62BF39CDD009AE6D5 /* KKFather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKFather.h; sourceTree = "<group>"; };
+		73FD48E72BF39CDD009AE6D5 /* KKFather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFather.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99785C8A78CCC98247771125 /* Pods_KKHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D8C91159021345CD3CD7A5 /* Pods-KKHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKHook_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKHook_Tests/Pods-KKHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -236,6 +239,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				73FD48E62BF39CDD009AE6D5 /* KKFather.h */,
+				73FD48E72BF39CDD009AE6D5 /* KKFather.m */,
 			);
 			name = "Example for KKHook";
 			path = KKHook;
@@ -583,6 +588,7 @@
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				730854F7255C349600A7FCE5 /* KKClassHookExample.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
+				73FD48E82BF39CDD009AE6D5 /* KKFather.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */,
 			);

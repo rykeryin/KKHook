@@ -7,7 +7,7 @@
 
 #include "Fish.h"
 
-int fishSuccess() {
+int fishSuccess(int a) {
     printf("\n===============\n fish success \n===============\n");
     return 1;
 }
@@ -19,5 +19,5 @@ int fishFail() {
 
 int fishing(int food) {
     printf("\n===============\n fish \n===============\n");
-    return food > 10 ? fishSuccess(): fishFail();
+    return food > 10 ? fishSuccess(1): fishFail();
 }

@@ -9,11 +9,14 @@
 #import "KKAppDelegate.h"
 #import "KKViewController.h"
 #import "Fish.h"
+#import "KKFather.h"
 
 @implementation KKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [[KKFather new] call];
     
     fishing(100);
     

@@ -26,9 +26,13 @@ _fishFail:
 */
 
 
-KKAddressHookFileInit(TestMachO)
+//KKAddressHookFileInit(TestMachO)
+//
+//KKAddressHook(int, fishSuccess, void) {
+//    return orig_fishSuccess();
+//}
+//KKAddressHookRegister(fishSuccess, 0x0000000000007e30)
 
-KKAddressHook(int, fishSuccess, void) {
-    return orig_fishSuccess();
+KKAddressHookWithMachO(TestMachO, 0x0000000000004000, int, fishSuccess, int a) {
+    return orig_fishSuccess(a);
 }
-KKAddressHookRegister(fishSuccess, 0x0000000000007e30)
