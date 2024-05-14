@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '2.2.0'
+  s.version          = '2.3.0'
   s.summary          = 'A short description of KKHook.'
   
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
@@ -34,9 +34,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rykeryin/KKHook.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform = :ios, '12.0'
+  s.platform = :ios, '9.0'
   
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
   
   s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/**.h'
   
