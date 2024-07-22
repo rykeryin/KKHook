@@ -10,6 +10,7 @@
 #import "KKViewController.h"
 #import "Fish.h"
 #import "KKFather.h"
+#import <AVKit/AVKit.h>
 
 @implementation KKAppDelegate
 
@@ -17,6 +18,8 @@
 {
     
     [[KKFather new] call];
+    
+    AVAudioSession *session = [AVAudioSession sharedInstance];
     
     fishing(100);
     

@@ -8,10 +8,12 @@
 
 #import <KKHook/KKClassHook.h>
 #import <UIKit/UIKit.h>
+#import <AVFAudio/AVFAudio.h>
 
 KKClassHookUnImported(KKAppDelegate)
 
 - (BOOL)hook_application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     return [self hook_application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
@@ -25,5 +27,15 @@ KKClassHookImported(KKViewController)
 }
 
 KKClassHookEnd
+
+KKClassHookImported(AVAudioSession)
+
++ (AVAudioSession *)hook_sharedInstance {
+    NSLog(@"hooked sharedInstance");
+    return [self hook_sharedInstance];
+}
+
+KKClassHookEnd
+
 
 

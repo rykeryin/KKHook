@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define kkhook(methodName) kkhook_#methodName
+
 #define KKClassHookImported(clsz) \
 @implementation clsz(add) \
 + (void)load { \
@@ -19,7 +21,10 @@
 @end \
 KKClassHookImported(clsz)
 
+#define KKClassHook(methodName) hook_##methodName
+
 #define KKClassHookEnd  @end
+
 
 extern void KKHookClass(Class claz);
 
