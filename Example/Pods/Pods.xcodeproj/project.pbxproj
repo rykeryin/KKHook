@@ -18,6 +18,7 @@
 				87B04495A6B053FFBB116AE21033E64D /* PBXTargetDependency */,
 			);
 			name = "Expecta+Snapshots";
+			productName = "Expecta+Snapshots";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXAggregateTarget;
@@ -27,6 +28,7 @@
 			dependencies = (
 			);
 			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
 		};
 		DC371B7477C88184274EC6710690F97C /* Expecta */ = {
 			isa = PBXAggregateTarget;
@@ -36,6 +38,7 @@
 			dependencies = (
 			);
 			name = Expecta;
+			productName = Expecta;
 		};
 		F8676010755CF1530FC02DA9A0D8822B /* Specta */ = {
 			isa = PBXAggregateTarget;
@@ -45,6 +48,7 @@
 			dependencies = (
 			);
 			name = Specta;
+			productName = Specta;
 		};
 /* End PBXAggregateTarget section */
 
@@ -148,16 +152,16 @@
 		243FE2E06A36354CD990635B2E43F84E /* Pods-KKHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29E856AE5F223F56C6AAA0229DAF1B00 /* KKHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKHook-dummy.m"; sourceTree = "<group>"; };
 		2C0BE2D4D6F5F614E9C954DC60E7A36C /* Pods-KKHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKHook_Example-dummy.m"; sourceTree = "<group>"; };
-		3266FF3B67AC0B44CA39F491A3B9D982 /* KKAddressHook.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = KKAddressHook.mm; path = KKHook/Classes/KKAddressHook.mm; sourceTree = "<group>"; };
+		3266FF3B67AC0B44CA39F491A3B9D982 /* KKAddressHook.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = KKAddressHook.mm; path = KKHook/Classes/KKAddressHook.mm; sourceTree = "<group>"; };
 		34B71EA0099DB8056A75FA967326A276 /* Pods-KKHook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Example-Info.plist"; sourceTree = "<group>"; };
 		37B3C3DB2D54B9702718DB1A0FB721BB /* KKHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKHook-Info.plist"; sourceTree = "<group>"; };
 		3A3D72317D51708D78DA194047CFE545 /* Pods-KKHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B1D80833A11A773210C5F4BE63C36E5 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
+		3B1D80833A11A773210C5F4BE63C36E5 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
 		41712693D31900B789618C8A38CA2C7B /* Pods-KKHook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKHook_Example-frameworks.sh"; sourceTree = "<group>"; };
 		487BC6872D518530144EA4AFB4530E2B /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
 		4BA78DC91BF190DD2E1CEDEBBAE24381 /* Pods-KKHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5530C84A92908613B89B0B87621B7356 /* libdobby.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libdobby.a; path = KKHook/Frameworks/libdobby.a; sourceTree = "<group>"; };
-		57D0611DF9EF78317EC8EABA815FB8BA /* KKHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57D0611DF9EF78317EC8EABA815FB8BA /* KKHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AAC3642DF7D3C59453C953A4F559905 /* KKSymbolHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKSymbolHook.m; path = KKHook/Classes/KKSymbolHook.m; sourceTree = "<group>"; };
 		6074852DE3DDBA91BE483F95E87608C0 /* Pods-KKHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6804E961D378BF5AAA0A4814234C6F89 /* Expecta+Snapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,15 +169,15 @@
 		74BA9C93D558404845EDEA58086AE1FB /* Expecta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.debug.xcconfig; sourceTree = "<group>"; };
 		825B0CC3505061354787B87AE985D872 /* Specta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.release.xcconfig; sourceTree = "<group>"; };
 		84F5161E74D3825FD2904E134B3E330C /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		86E02B664B0399ECB3AD6D922E904379 /* KKHook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKHook; path = KKHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E02B664B0399ECB3AD6D922E904379 /* KKHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A21305B882DCC345BF1F5476EC1F51B /* KKSymbolHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKSymbolHook.h; path = KKHook/Classes/KKSymbolHook.h; sourceTree = "<group>"; };
 		8C0245047B7028064595AB3AF4765AFC /* Pods-KKHook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C4EC8EEF2E61CF67947195A290D932E /* Pods-KKHook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKHook_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C675CED794CCDD980E6E95569626E63 /* Pods-KKHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1E56226A69260FA10EE273FFCD7C177 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = KKHook/Classes/fishhook.h; sourceTree = "<group>"; };
 		BDEB09736089073A42132EB096150DA3 /* Pods-KKHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0939B65C7D4B809D56F3944FCE71289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C0939B65C7D4B809D56F3944FCE71289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C3F0D247EE6F288A6B8E4EB72C42F124 /* KKHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKHook.debug.xcconfig; sourceTree = "<group>"; };
 		C5497FAB9D505FE3125F0934D0AC247A /* KKHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKHook-umbrella.h"; sourceTree = "<group>"; };
 		CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods-KKHook_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKHook_Example"; path = Pods_KKHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,7 +185,7 @@
 		CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods-KKHook_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKHook_Tests"; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0947DC43BBFDC35D48D646ED45C396E /* Pods-KKHook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Tests-Info.plist"; sourceTree = "<group>"; };
 		E2E738DB690D97BF334D81F865EDB21C /* Pods-KKHook_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKHook_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F27840D03711DCB46BEB679CA700FCD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F27840D03711DCB46BEB679CA700FCD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F42E39A4F529CC098FBC8818A7E0E75F /* Pods-KKHook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKHook_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6650DE321817CBBE5AA136DF152F95D /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		F8FA7929808106D6DBD1C84D88828EDD /* Pods-KKHook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKHook_Example.modulemap"; sourceTree = "<group>"; };
@@ -223,7 +227,6 @@
 			children = (
 				EC066860092A08EB992C0674ACC09CC5 /* Support Files */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -368,7 +371,6 @@
 			children = (
 				A0BC20F286B933CFAB27444F387B3DC5 /* Support Files */,
 			);
-			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -377,7 +379,6 @@
 			children = (
 				2E1FA29265EF29C9ADED8D133B95EF3F /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -386,7 +387,6 @@
 			children = (
 				0ECDEEDE3A57CBF96EBB28348FAB31BC /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -405,7 +405,7 @@
 		D0780911845ACB7787AE7BB90C32858A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86E02B664B0399ECB3AD6D922E904379 /* KKHook */,
+				86E02B664B0399ECB3AD6D922E904379 /* KKHook.framework */,
 				CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods-KKHook_Example */,
 				CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods-KKHook_Tests */,
 			);
@@ -498,7 +498,7 @@
 			);
 			name = KKHook;
 			productName = KKHook;
-			productReference = 86E02B664B0399ECB3AD6D922E904379 /* KKHook */;
+			productReference = 86E02B664B0399ECB3AD6D922E904379 /* KKHook.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		95FF4B818CEDD7D01DB663A50D4DC827 /* Pods-KKHook_Tests */ = {
@@ -551,6 +551,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					948923D6F0EC0090D2E5E60D47EBB77F = {
+						DevelopmentTeam = SCM7T5H8ND;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -747,11 +753,11 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -762,8 +768,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KKHook/KKHook.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk.hook;
 				PRODUCT_MODULE_NAME = KKHook;
 				PRODUCT_NAME = KKHook;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -781,11 +789,11 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -796,8 +804,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KKHook/KKHook.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk.hook;
 				PRODUCT_MODULE_NAME = KKHook;
 				PRODUCT_NAME = KKHook;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1060,8 +1070,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
