@@ -7,6 +7,8 @@
 //
 
 #import "KKViewController.h"
+#import <AVKit/AVKit.h>
+
 
 @interface KKViewController ()
 
@@ -19,9 +21,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    static AVPlayer *player;
+    player = [[AVPlayer alloc] init];
+    [player play];
 //    fishing(100);
-    
+    self.view.backgroundColor = [UIColor redColor];
 //    void *f = fishing;
     
     if (!fopen("", "")) {

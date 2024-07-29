@@ -16,15 +16,24 @@
     KKHookClass([self class]); \
 }
 
-#define KKClassHookUnImported(clsz) \
-@interface clsz: NSObject \
-@end \
-KKClassHookImported(clsz)
-
+//#define KKClassHookUnImported(clsz) \
+//@interface clsz: NSObject \
+//@end \
+//KKClassHookImported(clsz)
+//
 #define KKClassHook(methodName) hook_##methodName
 
 #define KKClassHookEnd  @end
 
+
+// clsz 是需要 hook 的类名
+#define KKClassHookUnImported(clsz) \
+@interface InvisibleHook__##clsz: NSObject \
+@end \
+@implementation InvisibleHook__##clsz \
++ (void)load { \
+KKHookClass([self class]); \
+} \
 
 extern void KKHookClass(Class claz);
 
