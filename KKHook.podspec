@@ -34,9 +34,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rykeryin/KKHook.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform = :ios, '9.0'
+  s.platform = :ios, '12.0'
   
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   
   s.source_files = 'KKHook/Classes/**/*', 'KKHook/Frameworks/**.h'
   
@@ -48,7 +48,7 @@ TODO: Add long description of the pod here.
  
 end
 
-# pod lib lint  --verbose --allow-warnings
+# pod lib lint  --verbose --allow-warnings --no-clean
 # pod trunk push KKHook.podspec --verbose --allow-warnings
 
 
