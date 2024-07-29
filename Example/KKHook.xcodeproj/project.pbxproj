@@ -423,6 +423,7 @@
 						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = SCM7T5H8ND;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 					73605C66256101AD003308F6 = {
@@ -831,6 +832,7 @@
 			baseConfigurationReference = CDBF623ECA3FD49093B0E160 /* Pods-KKHook_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -856,6 +858,7 @@
 			baseConfigurationReference = B0D8C91159021345CD3CD7A5 /* Pods-KKHook_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
