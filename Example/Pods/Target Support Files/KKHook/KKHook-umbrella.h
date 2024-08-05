@@ -13,6 +13,8 @@
 #import "KKAddressHook.h"
 #import "KKClassHook.h"
 #import "KKSymbolHook.h"
+#import "KKFishHook.h"
+#import "fishhook.h"
 
 FOUNDATION_EXPORT double KKHookVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKHookVersionString[];

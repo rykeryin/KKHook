@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKHook'
-  s.version          = '2.9.0'
+  s.version          = '3.0.0'
   s.summary          = 'A short description of KKHook.'
   
 #  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   # 第三方非开源framework(多个)
 #  s.vendored_frameworks = "KKHook/Frameworks/Dobby.framework"
   s.vendored_libraries = 'KKHook/Frameworks/libdobby.a'
-  s.public_header_files = 'KKHook/Classes/KKAddressHook.h', 'KKHook/Classes/KKClassHook.h', 'KKHook/Classes/KKSymbolHook.h'
+  s.public_header_files = 'KKHook/Classes/KKAddressHook.h', 'KKHook/Classes/KKClassHook.h', 'KKHook/Classes/KKSymbolHook.h', 'KKHook/Classes/KKFishHook.h', 'KKHook/Classes/fishhook.h',
   s.libraries = 'c++'
  
 end

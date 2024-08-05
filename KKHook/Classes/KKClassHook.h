@@ -8,19 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-#define kkhook(methodName) kkhook_#methodName
-
 #define KKClassHookImported(clsz) \
 @implementation clsz(add) \
 + (void)load { \
     KKHookClass([self class]); \
 }
 
-//#define KKClassHookUnImported(clsz) \
-//@interface clsz: NSObject \
-//@end \
-//KKClassHookImported(clsz)
-//
 #define KKClassHook(methodName) hook_##methodName
 
 #define KKClassHookEnd  @end

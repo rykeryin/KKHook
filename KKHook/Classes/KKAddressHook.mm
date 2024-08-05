@@ -20,7 +20,7 @@
 }
 
 + (int)hook:(void *)function_address replace:(void *)replace_call origin:(void **)origin_call {
-    return DobbyHook(function_address, replace_call, origin_call);
+    return  DobbyHook(function_address, replace_call, origin_call);
 }
 
 + (UInt64)readImageAddress:(NSString *)imageName {

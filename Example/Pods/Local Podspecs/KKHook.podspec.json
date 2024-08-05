@@ -1,6 +1,6 @@
 {
   "name": "KKHook",
-  "version": "2.2.0",
+  "version": "2.9.0",
   "summary": "A short description of KKHook.",
   "pod_target_xcconfig": {
     "VALID_ARCHS": "arm64 armv7",
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/rykeryin/KKHook.git",
-    "tag": "2.2.0"
+    "tag": "2.9.0"
   },
   "platforms": {
     "ios": "12.0"
@@ -27,10 +27,13 @@
     "KKHook/Frameworks/**.h"
   ],
   "vendored_libraries": "KKHook/Frameworks/libdobby.a",
+  "libraries": "c++",
   "public_header_files": [
     "KKHook/Classes/KKAddressHook.h",
     "KKHook/Classes/KKClassHook.h",
-    "KKHook/Classes/KKSymbolHook.h"
-  ],
-  "libraries": "c++"
+    "KKHook/Classes/KKSymbolHook.h",
+    "KKHook/Classes/KKFishHook.h",
+    "KKHook/Classes/fishhook.h",
+    "c++"
+  ]
 }

@@ -32,6 +32,8 @@
 		73605C8A256101D4003308F6 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605C88256101D4003308F6 /* Fish.m */; };
 		73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CBE256103C9003308F6 /* KKSymbolHookExample.m */; };
 		73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605CC4256103DC003308F6 /* KKAddressHookExample.m */; };
+		736E2E342C57E365007202B8 /* KKFishHookExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 736E2E332C57E365007202B8 /* KKFishHookExample.m */; };
+		736E2E372C58885B007202B8 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 736E2E352C58885B007202B8 /* fishhook.c */; };
 		73FD48E82BF39CDD009AE6D5 /* KKFather.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FD48E72BF39CDD009AE6D5 /* KKFather.m */; };
 		7826A3D462D7CCC88F2A9B0D /* Pods_KKHook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3869698619AC40A9A0C181F /* Pods_KKHook_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -122,6 +124,9 @@
 		73605CBE256103C9003308F6 /* KKSymbolHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSymbolHookExample.m; sourceTree = "<group>"; };
 		73605CC4256103DC003308F6 /* KKAddressHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAddressHookExample.m; sourceTree = "<group>"; };
 		7365984A255FC63600E03BA1 /* Shark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shark.framework; path = KKHook/Shark.framework; sourceTree = "<group>"; };
+		736E2E332C57E365007202B8 /* KKFishHookExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFishHookExample.m; sourceTree = "<group>"; };
+		736E2E352C58885B007202B8 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = ../../KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
+		736E2E362C58885B007202B8 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = ../../KKHook/Classes/fishhook.h; sourceTree = "<group>"; };
 		73FD48E62BF39CDD009AE6D5 /* KKFather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKFather.h; sourceTree = "<group>"; };
 		73FD48E72BF39CDD009AE6D5 /* KKFather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFather.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -231,8 +236,11 @@
 				730854F6255C349600A7FCE5 /* KKClassHookExample.m */,
 				73605CBE256103C9003308F6 /* KKSymbolHookExample.m */,
 				73605CC4256103DC003308F6 /* KKAddressHookExample.m */,
+				736E2E332C57E365007202B8 /* KKFishHookExample.m */,
 				6003F59C195388D20070C39A /* KKAppDelegate.h */,
 				6003F59D195388D20070C39A /* KKAppDelegate.m */,
+				736E2E352C58885B007202B8 /* fishhook.c */,
+				736E2E362C58885B007202B8 /* fishhook.h */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KKViewController.h */,
 				6003F5A6195388D20070C39A /* KKViewController.m */,
@@ -584,11 +592,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736E2E342C57E365007202B8 /* KKFishHookExample.m in Sources */,
 				7323BC1F2566BD50003F3600 /* KKAppDelegate.m in Sources */,
 				73605CC5256103DC003308F6 /* KKAddressHookExample.m in Sources */,
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				730854F7255C349600A7FCE5 /* KKClassHookExample.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
+				736E2E372C58885B007202B8 /* fishhook.c in Sources */,
 				73FD48E82BF39CDD009AE6D5 /* KKFather.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				73605CBF256103C9003308F6 /* KKSymbolHookExample.m in Sources */,
@@ -845,7 +855,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKHook_Example.app/KKHook_Example";
@@ -867,7 +877,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKHook_Example.app/KKHook_Example";
@@ -900,7 +910,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachO;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk.tt;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -935,7 +945,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachO;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk.tt;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -962,7 +972,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachOTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKHook_Example.app/KKHook_Example";
@@ -988,7 +998,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.TestMachOTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKHook_Example.app/KKHook_Example";

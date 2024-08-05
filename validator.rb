@@ -1091,17 +1091,18 @@ module Pod
       when :osx, :macos
         command += %w(CODE_SIGN_IDENTITY=)
       when :ios
-#        # command += %w(CODE_SIGN_IDENTITY=- -sdk iphoneos)
-#        # command += %w(-sdk iphoneos -destination=generic/iOS ONLY_ACTIVE_ARCH=YES ARCHS=armv64)
-#        command += Fourflusher::SimControl.new.destination(:oldest, 'iOS', deployment_target)
-#        xcconfig = consumer.pod_target_xcconfig
-#        if xcconfig
-#          archs = xcconfig['VALID_ARCHS']
-#          if archs && (archs.include? 'armv7') && !(archs.include? 'i386') && (archs.include? 'x86_64')
-#            # Prevent Xcodebuild from testing the non-existent i386 simulator if armv7 is specified without i386
-#            command += %w(ARCHS=x86_64)
-#          end
-#        end
+        # command += %w(CODE_SIGN_IDENTITY=- -sdk iphoneos)
+        # command += %w(-sdk iphoneos -destination=generic/iOS ONLY_ACTIVE_ARCH=YES ARCHS=armv64)
+        command += %w(-sdk iphoneos17.5 -destination=generic/iOS ONLY_ACTIVE_ARCH=NO ARCHS=armv64)
+        command += Fourflusher::SimControl.new.destination(:oldest, 'iOS', deployment_target)
+        xcconfig = consumer.pod_target_xcconfig
+        if xcconfig
+          archs = xcconfig['VALID_ARCHS']
+          if archs && (archs.include? 'armv7') && !(archs.include? 'i386') && (archs.include? 'x86_64')
+            # Prevent Xcodebuild from testing the non-existent i386 simulator if armv7 is specified without i386
+            command += %w(ARCHS=x86_64)
+          end
+        end
       when :watchos
         command += %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator)
       when :tvos

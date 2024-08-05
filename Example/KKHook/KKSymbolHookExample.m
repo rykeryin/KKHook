@@ -11,17 +11,9 @@
 #import <KKHook/KKSymbolHook.h>
 #import <AVFoundation/AVFoundation.h>
 
-KKSymbolHookInitMachO(TestMachO)
-
-//KKSymbolHook(int, fishSuccess, void) {
-//    printf("fishSuccess hooked");
-//    return orig_fishSuccess();
-//}
-//KKSymbolHookRegister(fishSuccess)
-
 KKSymbolHookWithMachO(TestMachO, int, fishSuccess, void) {
-        printf("fishSuccess hooked");
-        return orig_fishSuccess();
+    printf("fishSuccess hooked");
+    return orig_fishSuccess();
 }
 
 

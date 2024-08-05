@@ -13,16 +13,16 @@
 			buildPhases = (
 			);
 			dependencies = (
-				2368AD29BD76D9A4AC2F8878F979866C /* PBXTargetDependency */,
-				AEA8AED410324A0990D77D46D8D26775 /* PBXTargetDependency */,
-				87B04495A6B053FFBB116AE21033E64D /* PBXTargetDependency */,
+				5B8B31054A42E570E7029E53D6375A0E /* PBXTargetDependency */,
+				DE48B6904B19051830266F03433882EA /* PBXTargetDependency */,
+				C117AEDDA102FCBAA7F821977A202012 /* PBXTargetDependency */,
 			);
 			name = "Expecta+Snapshots";
 			productName = "Expecta+Snapshots";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CD21D346E80E608F666243B014D0204A /* Build configuration list for PBXAggregateTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = EDEAC02B691137625FBB2DE5180D606B /* Build configuration list for PBXAggregateTarget "FBSnapshotTestCase" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -42,7 +42,7 @@
 		};
 		F8676010755CF1530FC02DA9A0D8822B /* Specta */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 852592627959031601A9B7D1161882BD /* Build configuration list for PBXAggregateTarget "Specta" */;
+			buildConfigurationList = 999696F0EC6D9DDDCE42DAFCE4C1B552 /* Build configuration list for PBXAggregateTarget "Specta" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -54,152 +54,156 @@
 
 /* Begin PBXBuildFile section */
 		0061538476268DE6D6840E47065926A0 /* Pods-KKHook_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E738DB690D97BF334D81F865EDB21C /* Pods-KKHook_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08A0D31A9B80001C444A2A5DB72C009C /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D80833A11A773210C5F4BE63C36E5 /* fishhook.c */; };
-		11C57B18BC5965DEBA6EE97D6ED1D83D /* KKAddressHook.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3266FF3B67AC0B44CA39F491A3B9D982 /* KKAddressHook.mm */; };
 		21EBCB49B9EBE16F66D8601917485209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		22966482881F83A9DF55FFE9D07F75B5 /* KKClassHook.h in Headers */ = {isa = PBXBuildFile; fileRef = CD91DDE9900EDEABF9CCB00116C01E58 /* KKClassHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B74FCF0825CC4E6CECA93B639531037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2BB2797601721173B7C207FC050C4ECF /* dobby.h in Headers */ = {isa = PBXBuildFile; fileRef = FE084E838B0CD5F8C9330DF1FDCFD5C8 /* dobby.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F5C5FFB255F8E049EE782640561AAF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3DA6FB7371A357D9F901AA3131228478 /* KKHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E856AE5F223F56C6AAA0229DAF1B00 /* KKHook-dummy.m */; };
-		49D8939AB0DB6DF83615D6B5CA32AD0D /* KKHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5497FAB9D505FE3125F0934D0AC247A /* KKHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7557365FDD1547F0BA51A4DEC2E5386B /* KKHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 114DA4CEB1FB671BE01D456D3EBCEAB1 /* KKHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80EC145EB9BC2660035BDCF6B841BE91 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E56226A69260FA10EE273FFCD7C177 /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9CDEA6D7B4511BF316DE49BAE906AD3F /* KKSymbolHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A21305B882DCC345BF1F5476EC1F51B /* KKSymbolHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BF459F857B71969160815441A5A942 /* KKFishHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA6CB0C37174370C36F74A7984039E /* KKFishHook.m */; };
+		3D68334C5F9BC5B326D9BE4445ABE11B /* KKHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B284745309ADF2CFB7D4176F2ABD885 /* KKHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53FED258D014F09777BE99679DC6D358 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = F23E3149494C2184AFF232BA14839CD1 /* fishhook.c */; };
+		594858BA357636459F0963F024D3CDF7 /* dobby.h in Headers */ = {isa = PBXBuildFile; fileRef = 751080EB413C253FAB34333F4EF3A8B9 /* dobby.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62751CA15FDB4A105500D3BA09015970 /* KKHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1118CF2BB8CE910078D44A804DEE16EA /* KKHook-dummy.m */; };
+		6363D63E7E663288289C6D8AE556EBB4 /* KKClassHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2620CBE1881FBD2F476CBECC6E42E659 /* KKClassHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFF6D8671DBB41C3D33045B15370106 /* KKClassHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 336D5F16413E9EBD4579EF4179411EB5 /* KKClassHook.m */; };
+		7B9523D47181A81C635C8EF29D407E22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8412FD27123CC9BCC835BF6F8C9D4C17 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1BCE5E61352F0914F91CDAEC1526A4 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6BB0E6F616B171C0F0694E47C8A6E9 /* KKSymbolHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A234168F903ED35CA9D26E16C7FB9D /* KKSymbolHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C9C4B3DB5006670A8B81D451519942 /* KKHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 769FE09941C76420D905A75D5D9EBB94 /* KKHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A42DBA5C7E25BE2AA5A16A0604857F4 /* KKSymbolHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B3091C1C6E792E5231D4B9A084013 /* KKSymbolHook.m */; };
+		9DC30C8F2312CB2154165AEF6C736C9E /* KKAddressHook.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D941667E9CAD8C7CFECBEFBA279819F /* KKAddressHook.mm */; };
 		A3173DCC268531A0071F76CEEB2C7335 /* Pods-KKHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BE2D4D6F5F614E9C954DC60E7A36C /* Pods-KKHook_Example-dummy.m */; };
 		ADAB8AC83158815E547A2264DA1ACA3C /* Pods-KKHook_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42E39A4F529CC098FBC8818A7E0E75F /* Pods-KKHook_Tests-dummy.m */; };
+		CBEDC0F8B80BBEA34CB31D7044564A6C /* KKAddressHook.h in Headers */ = {isa = PBXBuildFile; fileRef = B66C1C3C220FEDC7649EA559E7D97CAE /* KKAddressHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04B6C0980FC8CB1165B5777CD7F638E /* KKFishHook.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E77DCADAB1C328B1369BCAE7B4C430 /* KKFishHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8EA88A203A65B9D3BD20D82798CC67B /* Pods-KKHook_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4EC8EEF2E61CF67947195A290D932E /* Pods-KKHook_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEE31F66522260602E1290C3EE783212 /* KKClassHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 051887B00D49EB993F61EE25D1991B23 /* KKClassHook.m */; };
-		F7256849139FBA23BA22D9E3F0CB9692 /* KKAddressHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E19B33B6AA75313105F11DEAC0E7BB /* KKAddressHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FADFE2F79E16E90BE740168BE810B67E /* KKSymbolHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC3642DF7D3C59453C953A4F559905 /* KKSymbolHook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DA396C96BD089723A93A493A56A54BD /* PBXContainerItemProxy */ = {
+		0BB7726597A9C25311BFC2BADA266CBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 948923D6F0EC0090D2E5E60D47EBB77F;
-			remoteInfo = KKHook;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
 		};
-		1486DDB8EC1DDD98138BB3F060C2B6AC /* PBXContainerItemProxy */ = {
+		1B6AABFB7DBC553CE9A2B4FFBA029108 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
-			remoteInfo = Specta;
+			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
+			remoteInfo = Expecta;
 		};
-		39645D69CDF1014DC83110CFB7F86ECC /* PBXContainerItemProxy */ = {
+		1B88F01B045E799770B97444844EB377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
+			remoteInfo = Expecta;
+		};
+		2C02B9DA1B08D6656FA56B8EBA8704EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8B98F09738742E4D780D1B20B468CD95;
 			remoteInfo = "Expecta+Snapshots";
 		};
-		52ED68DCC8B9DBA9A694DC35BD299F5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
-			remoteInfo = Expecta;
-		};
-		6E085F691864025A88C273DF3234EA85 /* PBXContainerItemProxy */ = {
+		416B8E61A481C1636E9EBBD39F9249DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		78951A3618DF933691D5D89C2EFC41C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1FC9029B1CF3B9BEFBCB6B83562C502;
-			remoteInfo = "Pods-KKHook_Example";
-		};
-		88110FDE5B52125EB7DE398A2D4B90B2 /* PBXContainerItemProxy */ = {
+		5B5EA7F81325F6639FE84CEEB9DE9B92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
 			remoteInfo = Specta;
 		};
-		8AE4F1130724E01577572C30B618CC65 /* PBXContainerItemProxy */ = {
+		89CDC5B438519C8CFC93282ADE240A62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
-			remoteInfo = Expecta;
+			remoteGlobalIDString = 948923D6F0EC0090D2E5E60D47EBB77F;
+			remoteInfo = KKHook;
 		};
-		AF4C8EB1314E46494871D804A8DEA578 /* PBXContainerItemProxy */ = {
+		D734C5D285453D73212A2D82C183D8E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
+			remoteGlobalIDString = E1FC9029B1CF3B9BEFBCB6B83562C502;
+			remoteInfo = "Pods-KKHook_Example";
+		};
+		F82678D0B20FE740C2EC5B7639AE8761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
+			remoteInfo = Specta;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E19B33B6AA75313105F11DEAC0E7BB /* KKAddressHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKAddressHook.h; path = KKHook/Classes/KKAddressHook.h; sourceTree = "<group>"; };
-		0484DFE2B99CEC4695CE64E95CB5FC23 /* KKHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKHook.modulemap; sourceTree = "<group>"; };
-		051887B00D49EB993F61EE25D1991B23 /* KKClassHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKClassHook.m; path = KKHook/Classes/KKClassHook.m; sourceTree = "<group>"; };
-		07F9FF9D032846BA81AC9519011D7E8C /* KKHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKHook.release.xcconfig; sourceTree = "<group>"; };
-		09B3F03A78FFC0F2EFBA928B6A3F047E /* KKHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKHook-prefix.pch"; sourceTree = "<group>"; };
-		114DA4CEB1FB671BE01D456D3EBCEAB1 /* KKHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKHook.h; path = KKHook/Classes/KKHook.h; sourceTree = "<group>"; };
+		0E1BCE5E61352F0914F91CDAEC1526A4 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = KKHook/Classes/fishhook.h; sourceTree = "<group>"; };
+		0E244B4D120E249D45C8392248AB05FF /* KKHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKHook-prefix.pch"; sourceTree = "<group>"; };
+		1118CF2BB8CE910078D44A804DEE16EA /* KKHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKHook-dummy.m"; sourceTree = "<group>"; };
 		19A89FF643236188BA17F93F582E04AA /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		204C7B9598C02BE63685183B7A44139A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		22FB366418CEA34CDEC7233EFD3E261D /* Pods-KKHook_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKHook_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		243FE2E06A36354CD990635B2E43F84E /* Pods-KKHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		29E856AE5F223F56C6AAA0229DAF1B00 /* KKHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKHook-dummy.m"; sourceTree = "<group>"; };
+		2620CBE1881FBD2F476CBECC6E42E659 /* KKClassHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKClassHook.h; path = KKHook/Classes/KKClassHook.h; sourceTree = "<group>"; };
+		281A2DCB73811903E924D5C34AC197BB /* KKHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKHook.release.xcconfig; sourceTree = "<group>"; };
 		2C0BE2D4D6F5F614E9C954DC60E7A36C /* Pods-KKHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKHook_Example-dummy.m"; sourceTree = "<group>"; };
-		3266FF3B67AC0B44CA39F491A3B9D982 /* KKAddressHook.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = KKAddressHook.mm; path = KKHook/Classes/KKAddressHook.mm; sourceTree = "<group>"; };
+		2D941667E9CAD8C7CFECBEFBA279819F /* KKAddressHook.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = KKAddressHook.mm; path = KKHook/Classes/KKAddressHook.mm; sourceTree = "<group>"; };
+		336D5F16413E9EBD4579EF4179411EB5 /* KKClassHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKClassHook.m; path = KKHook/Classes/KKClassHook.m; sourceTree = "<group>"; };
 		34B71EA0099DB8056A75FA967326A276 /* Pods-KKHook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Example-Info.plist"; sourceTree = "<group>"; };
-		37B3C3DB2D54B9702718DB1A0FB721BB /* KKHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKHook-Info.plist"; sourceTree = "<group>"; };
 		3A3D72317D51708D78DA194047CFE545 /* Pods-KKHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B1D80833A11A773210C5F4BE63C36E5 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
 		41712693D31900B789618C8A38CA2C7B /* Pods-KKHook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKHook_Example-frameworks.sh"; sourceTree = "<group>"; };
 		487BC6872D518530144EA4AFB4530E2B /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
 		4BA78DC91BF190DD2E1CEDEBBAE24381 /* Pods-KKHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5530C84A92908613B89B0B87621B7356 /* libdobby.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libdobby.a; path = KKHook/Frameworks/libdobby.a; sourceTree = "<group>"; };
-		57D0611DF9EF78317EC8EABA815FB8BA /* KKHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5AAC3642DF7D3C59453C953A4F559905 /* KKSymbolHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKSymbolHook.m; path = KKHook/Classes/KKSymbolHook.m; sourceTree = "<group>"; };
+		566E45781FCAF15F225206932971F9D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5ADA6CB0C37174370C36F74A7984039E /* KKFishHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKFishHook.m; path = KKHook/Classes/KKFishHook.m; sourceTree = "<group>"; };
+		604EC67882C982D692FBF0EE16DF7448 /* KKHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKHook-Info.plist"; sourceTree = "<group>"; };
 		6074852DE3DDBA91BE483F95E87608C0 /* Pods-KKHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6394BFE6DE09462987DE99485FABEBAC /* KKHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKHook.debug.xcconfig; sourceTree = "<group>"; };
 		6804E961D378BF5AAA0A4814234C6F89 /* Expecta+Snapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.release.xcconfig"; sourceTree = "<group>"; };
+		6D4FA1953E41D69CC3BB7D0943C14F27 /* libdobby.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libdobby.a; path = KKHook/Frameworks/libdobby.a; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74BA9C93D558404845EDEA58086AE1FB /* Expecta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.debug.xcconfig; sourceTree = "<group>"; };
+		751080EB413C253FAB34333F4EF3A8B9 /* dobby.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dobby.h; path = KKHook/Classes/dobby.h; sourceTree = "<group>"; };
+		769FE09941C76420D905A75D5D9EBB94 /* KKHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKHook.h; path = KKHook/Classes/KKHook.h; sourceTree = "<group>"; };
 		825B0CC3505061354787B87AE985D872 /* Specta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.release.xcconfig; sourceTree = "<group>"; };
 		84F5161E74D3825FD2904E134B3E330C /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		86E02B664B0399ECB3AD6D922E904379 /* KKHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A21305B882DCC345BF1F5476EC1F51B /* KKSymbolHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKSymbolHook.h; path = KKHook/Classes/KKSymbolHook.h; sourceTree = "<group>"; };
+		86E02B664B0399ECB3AD6D922E904379 /* KKHook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKHook; path = KKHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B284745309ADF2CFB7D4176F2ABD885 /* KKHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKHook-umbrella.h"; sourceTree = "<group>"; };
 		8C0245047B7028064595AB3AF4765AFC /* Pods-KKHook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E030AF9A74541F129D9EC7F5BCD630D /* KKHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKHook.modulemap; sourceTree = "<group>"; };
+		970B3091C1C6E792E5231D4B9A084013 /* KKSymbolHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKSymbolHook.m; path = KKHook/Classes/KKSymbolHook.m; sourceTree = "<group>"; };
+		97A234168F903ED35CA9D26E16C7FB9D /* KKSymbolHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKSymbolHook.h; path = KKHook/Classes/KKSymbolHook.h; sourceTree = "<group>"; };
 		9C4EC8EEF2E61CF67947195A290D932E /* Pods-KKHook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKHook_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C675CED794CCDD980E6E95569626E63 /* Pods-KKHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1E56226A69260FA10EE273FFCD7C177 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = KKHook/Classes/fishhook.h; sourceTree = "<group>"; };
+		B66C1C3C220FEDC7649EA559E7D97CAE /* KKAddressHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKAddressHook.h; path = KKHook/Classes/KKAddressHook.h; sourceTree = "<group>"; };
 		BDEB09736089073A42132EB096150DA3 /* Pods-KKHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0939B65C7D4B809D56F3944FCE71289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C3F0D247EE6F288A6B8E4EB72C42F124 /* KKHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKHook.debug.xcconfig; sourceTree = "<group>"; };
-		C5497FAB9D505FE3125F0934D0AC247A /* KKHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKHook-umbrella.h"; sourceTree = "<group>"; };
-		CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods_KKHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD91DDE9900EDEABF9CCB00116C01E58 /* KKClassHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKClassHook.h; path = KKHook/Classes/KKClassHook.h; sourceTree = "<group>"; };
-		CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods_KKHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E77DCADAB1C328B1369BCAE7B4C430 /* KKFishHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFishHook.h; path = KKHook/Classes/KKFishHook.h; sourceTree = "<group>"; };
+		CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods-KKHook_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKHook_Example"; path = Pods_KKHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods-KKHook_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKHook_Tests"; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0947DC43BBFDC35D48D646ED45C396E /* Pods-KKHook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Tests-Info.plist"; sourceTree = "<group>"; };
 		E2E738DB690D97BF334D81F865EDB21C /* Pods-KKHook_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKHook_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F27840D03711DCB46BEB679CA700FCD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E548D1401027266298A9843A2D18A943 /* KKHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F23E3149494C2184AFF232BA14839CD1 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
 		F42E39A4F529CC098FBC8818A7E0E75F /* Pods-KKHook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKHook_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6650DE321817CBBE5AA136DF152F95D /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		F8FA7929808106D6DBD1C84D88828EDD /* Pods-KKHook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKHook_Example.modulemap"; sourceTree = "<group>"; };
 		FB289A6BE95C85D74371DE2E951D8713 /* Expecta+Snapshots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.debug.xcconfig"; sourceTree = "<group>"; };
 		FC045B14388B17F18D7ED9195D5F56EE /* Pods-KKHook_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKHook_Tests.modulemap"; sourceTree = "<group>"; };
-		FE084E838B0CD5F8C9330DF1FDCFD5C8 /* dobby.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dobby.h; path = KKHook/Classes/dobby.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5985CE684CCBAE40EA396D933799E51F /* Frameworks */ = {
+		DB3326743DD5AEC90757C03676F91EC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B74FCF0825CC4E6CECA93B639531037 /* Foundation.framework in Frameworks */,
+				7B9523D47181A81C635C8EF29D407E22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,22 +255,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		18C87A7B834EE26A753C88B8894A65A0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5530C84A92908613B89B0B87621B7356 /* libdobby.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		26258C44BB4ED8C47F6831C608B3DC7D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7424873F1CFF74C02255DF61E07523E6 /* KKHook */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2E1FA29265EF29C9ADED8D133B95EF3F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,25 +289,12 @@
 			path = "Target Support Files/Pods-KKHook_Tests";
 			sourceTree = "<group>";
 		};
-		7424873F1CFF74C02255DF61E07523E6 /* KKHook */ = {
+		7AEBD67B0B4D16F3795A697DD5BB4DD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE084E838B0CD5F8C9330DF1FDCFD5C8 /* dobby.h */,
-				3B1D80833A11A773210C5F4BE63C36E5 /* fishhook.c */,
-				B1E56226A69260FA10EE273FFCD7C177 /* fishhook.h */,
-				01E19B33B6AA75313105F11DEAC0E7BB /* KKAddressHook.h */,
-				3266FF3B67AC0B44CA39F491A3B9D982 /* KKAddressHook.mm */,
-				CD91DDE9900EDEABF9CCB00116C01E58 /* KKClassHook.h */,
-				051887B00D49EB993F61EE25D1991B23 /* KKClassHook.m */,
-				114DA4CEB1FB671BE01D456D3EBCEAB1 /* KKHook.h */,
-				8A21305B882DCC345BF1F5476EC1F51B /* KKSymbolHook.h */,
-				5AAC3642DF7D3C59453C953A4F559905 /* KKSymbolHook.m */,
-				18C87A7B834EE26A753C88B8894A65A0 /* Frameworks */,
-				A68640027558E4128398E22D1CC7916D /* Pod */,
-				87047EEF886A6AC246B02B2448475FDE /* Support Files */,
+				6D4FA1953E41D69CC3BB7D0943C14F27 /* libdobby.a */,
 			);
-			name = KKHook;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7D46E125871CD0142EDF146CE1AC4B2D /* Targets Support Files */ = {
@@ -331,19 +306,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		87047EEF886A6AC246B02B2448475FDE /* Support Files */ = {
+		8ABD5CABB714FD05EF1097454E93CDCC /* KKHook */ = {
 			isa = PBXGroup;
 			children = (
-				0484DFE2B99CEC4695CE64E95CB5FC23 /* KKHook.modulemap */,
-				29E856AE5F223F56C6AAA0229DAF1B00 /* KKHook-dummy.m */,
-				37B3C3DB2D54B9702718DB1A0FB721BB /* KKHook-Info.plist */,
-				09B3F03A78FFC0F2EFBA928B6A3F047E /* KKHook-prefix.pch */,
-				C5497FAB9D505FE3125F0934D0AC247A /* KKHook-umbrella.h */,
-				C3F0D247EE6F288A6B8E4EB72C42F124 /* KKHook.debug.xcconfig */,
-				07F9FF9D032846BA81AC9519011D7E8C /* KKHook.release.xcconfig */,
+				769FE09941C76420D905A75D5D9EBB94 /* KKHook.h */,
+				751080EB413C253FAB34333F4EF3A8B9 /* dobby.h */,
+				0E1BCE5E61352F0914F91CDAEC1526A4 /* fishhook.h */,
+				F23E3149494C2184AFF232BA14839CD1 /* fishhook.c */,
+				B66C1C3C220FEDC7649EA559E7D97CAE /* KKAddressHook.h */,
+				2D941667E9CAD8C7CFECBEFBA279819F /* KKAddressHook.mm */,
+				2620CBE1881FBD2F476CBECC6E42E659 /* KKClassHook.h */,
+				336D5F16413E9EBD4579EF4179411EB5 /* KKClassHook.m */,
+				C2E77DCADAB1C328B1369BCAE7B4C430 /* KKFishHook.h */,
+				5ADA6CB0C37174370C36F74A7984039E /* KKFishHook.m */,
+				97A234168F903ED35CA9D26E16C7FB9D /* KKSymbolHook.h */,
+				970B3091C1C6E792E5231D4B9A084013 /* KKSymbolHook.m */,
+				7AEBD67B0B4D16F3795A697DD5BB4DD5 /* Frameworks */,
+				A8D103FA7031897A68A37ADDE547197B /* Pod */,
+				C194D74AFFA4BC332ABA1A86437F0DBC /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KKHook";
+			name = KKHook;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A0BC20F286B933CFAB27444F387B3DC5 /* Support Files */ = {
@@ -356,12 +339,12 @@
 			path = "../Target Support Files/Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		A68640027558E4128398E22D1CC7916D /* Pod */ = {
+		A8D103FA7031897A68A37ADDE547197B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				57D0611DF9EF78317EC8EABA815FB8BA /* KKHook.podspec */,
-				F27840D03711DCB46BEB679CA700FCD5 /* LICENSE */,
-				C0939B65C7D4B809D56F3944FCE71289 /* README.md */,
+				E548D1401027266298A9843A2D18A943 /* KKHook.podspec */,
+				204C7B9598C02BE63685183B7A44139A /* LICENSE */,
+				566E45781FCAF15F225206932971F9D7 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -390,11 +373,26 @@
 			path = Expecta;
 			sourceTree = "<group>";
 		};
+		C194D74AFFA4BC332ABA1A86437F0DBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E030AF9A74541F129D9EC7F5BCD630D /* KKHook.modulemap */,
+				1118CF2BB8CE910078D44A804DEE16EA /* KKHook-dummy.m */,
+				604EC67882C982D692FBF0EE16DF7448 /* KKHook-Info.plist */,
+				0E244B4D120E249D45C8392248AB05FF /* KKHook-prefix.pch */,
+				8B284745309ADF2CFB7D4176F2ABD885 /* KKHook-umbrella.h */,
+				6394BFE6DE09462987DE99485FABEBAC /* KKHook.debug.xcconfig */,
+				281A2DCB73811903E924D5C34AC197BB /* KKHook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKHook";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				26258C44BB4ED8C47F6831C608B3DC7D /* Development Pods */,
+				E56C1CACDDB87996FD9EB7064250ED07 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				11DFB4917E2E20F47884FA45B4FBE0E9 /* Pods */,
 				D0780911845ACB7787AE7BB90C32858A /* Products */,
@@ -405,9 +403,9 @@
 		D0780911845ACB7787AE7BB90C32858A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86E02B664B0399ECB3AD6D922E904379 /* KKHook.framework */,
-				CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods_KKHook_Example.framework */,
-				CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods_KKHook_Tests.framework */,
+				86E02B664B0399ECB3AD6D922E904379 /* KKHook */,
+				CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods-KKHook_Example */,
+				CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods-KKHook_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +416,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56C1CACDDB87996FD9EB7064250ED07 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ABD5CABB714FD05EF1097454E93CDCC /* KKHook */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EC066860092A08EB992C0674ACC09CC5 /* Support Files */ = {
@@ -450,25 +456,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BCF89A0692595A2307B6E7BEC700C41 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BB2797601721173B7C207FC050C4ECF /* dobby.h in Headers */,
-				80EC145EB9BC2660035BDCF6B841BE91 /* fishhook.h in Headers */,
-				F7256849139FBA23BA22D9E3F0CB9692 /* KKAddressHook.h in Headers */,
-				22966482881F83A9DF55FFE9D07F75B5 /* KKClassHook.h in Headers */,
-				7557365FDD1547F0BA51A4DEC2E5386B /* KKHook.h in Headers */,
-				49D8939AB0DB6DF83615D6B5CA32AD0D /* KKHook-umbrella.h in Headers */,
-				9CDEA6D7B4511BF316DE49BAE906AD3F /* KKSymbolHook.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		679F9EF410A047D70D4323D704FFCA46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8EA88A203A65B9D3BD20D82798CC67B /* Pods-KKHook_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C180B92F50FBF4AC8FEA2B59E4E94E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594858BA357636459F0963F024D3CDF7 /* dobby.h in Headers */,
+				8412FD27123CC9BCC835BF6F8C9D4C17 /* fishhook.h in Headers */,
+				CBEDC0F8B80BBEA34CB31D7044564A6C /* KKAddressHook.h in Headers */,
+				6363D63E7E663288289C6D8AE556EBB4 /* KKClassHook.h in Headers */,
+				D04B6C0980FC8CB1165B5777CD7F638E /* KKFishHook.h in Headers */,
+				92C9C4B3DB5006670A8B81D451519942 /* KKHook.h in Headers */,
+				3D68334C5F9BC5B326D9BE4445ABE11B /* KKHook-umbrella.h in Headers */,
+				8C6BB0E6F616B171C0F0694E47C8A6E9 /* KKSymbolHook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,12 +492,12 @@
 /* Begin PBXNativeTarget section */
 		948923D6F0EC0090D2E5E60D47EBB77F /* KKHook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 104BA624750A8497B43A3E063D15922D /* Build configuration list for PBXNativeTarget "KKHook" */;
+			buildConfigurationList = 6D086B992C9BBCF85CA46CC6334C2FA0 /* Build configuration list for PBXNativeTarget "KKHook" */;
 			buildPhases = (
-				0BCF89A0692595A2307B6E7BEC700C41 /* Headers */,
-				B8337A00F5152D05A8A22E05DF0BF59B /* Sources */,
-				5985CE684CCBAE40EA396D933799E51F /* Frameworks */,
-				84A9FA54099EDDC03C9E267C1E973ED3 /* Resources */,
+				7C180B92F50FBF4AC8FEA2B59E4E94E9 /* Headers */,
+				62135753FBEFEC7FABEA4ADACC0A817A /* Sources */,
+				DB3326743DD5AEC90757C03676F91EC3 /* Frameworks */,
+				B541D5028B83FC811D847B8F841371BD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -498,7 +505,7 @@
 			);
 			name = KKHook;
 			productName = KKHook;
-			productReference = 86E02B664B0399ECB3AD6D922E904379 /* KKHook.framework */;
+			productReference = 86E02B664B0399ECB3AD6D922E904379 /* KKHook */;
 			productType = "com.apple.product-type.framework";
 		};
 		95FF4B818CEDD7D01DB663A50D4DC827 /* Pods-KKHook_Tests */ = {
@@ -513,15 +520,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				578D3C0078EAB838F085E19C5F715157 /* PBXTargetDependency */,
-				7D0BBF2592350202BC33C6751459173F /* PBXTargetDependency */,
-				7591180C316B2AB8F6A475611A8D5132 /* PBXTargetDependency */,
-				8B28C18B9AD03D06968CF5300B74FBEF /* PBXTargetDependency */,
-				3C34F87E23195322A25969B6ACECBEDA /* PBXTargetDependency */,
+				AE4CF4E9D5FAD2E1E567291BD903E8D7 /* PBXTargetDependency */,
+				67C837E67E6BA32D513C880E675FCD44 /* PBXTargetDependency */,
+				F714EF267BEFE2D787962F7B9AB978A2 /* PBXTargetDependency */,
+				60D2ACB21B1C9202BDE9C103D2E8D556 /* PBXTargetDependency */,
+				8A99E0871FDCD4902B00C6BCC047E606 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKHook_Tests";
 			productName = Pods_KKHook_Tests;
-			productReference = CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods_KKHook_Tests.framework */;
+			productReference = CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods-KKHook_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		E1FC9029B1CF3B9BEFBCB6B83562C502 /* Pods-KKHook_Example */ = {
@@ -536,11 +543,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				12B5DF86145168E9D7AC39B326EEA8BD /* PBXTargetDependency */,
+				2B20A004EC9F192779E3FE64CE71F030 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKHook_Example";
 			productName = Pods_KKHook_Example;
-			productReference = CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods_KKHook_Example.framework */;
+			productReference = CBE5B99D76EEC9CBE8E9D86CA218C830 /* Pods-KKHook_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -551,20 +558,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					948923D6F0EC0090D2E5E60D47EBB77F = {
-						DevelopmentTeam = SCM7T5H8ND;
-						ProvisioningStyle = Automatic;
-					};
-					95FF4B818CEDD7D01DB663A50D4DC827 = {
-						DevelopmentTeam = SCM7T5H8ND;
-						ProvisioningStyle = Automatic;
-					};
-					E1FC9029B1CF3B9BEFBCB6B83562C502 = {
-						DevelopmentTeam = SCM7T5H8ND;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -605,7 +598,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A9FA54099EDDC03C9E267C1E973ED3 /* Resources */ = {
+		B541D5028B83FC811D847B8F841371BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -623,6 +616,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62135753FBEFEC7FABEA4ADACC0A817A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FED258D014F09777BE99679DC6D358 /* fishhook.c in Sources */,
+				9DC30C8F2312CB2154165AEF6C736C9E /* KKAddressHook.mm in Sources */,
+				6FFF6D8671DBB41C3D33045B15370106 /* KKClassHook.m in Sources */,
+				30BF459F857B71969160815441A5A942 /* KKFishHook.m in Sources */,
+				62751CA15FDB4A105500D3BA09015970 /* KKHook-dummy.m in Sources */,
+				9A42DBA5C7E25BE2AA5A16A0604857F4 /* KKSymbolHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B65BDB7128619772700CBF41DBEF8980 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,78 +637,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8337A00F5152D05A8A22E05DF0BF59B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08A0D31A9B80001C444A2A5DB72C009C /* fishhook.c in Sources */,
-				11C57B18BC5965DEBA6EE97D6ED1D83D /* KKAddressHook.mm in Sources */,
-				DEE31F66522260602E1290C3EE783212 /* KKClassHook.m in Sources */,
-				3DA6FB7371A357D9F901AA3131228478 /* KKHook-dummy.m in Sources */,
-				FADFE2F79E16E90BE740168BE810B67E /* KKSymbolHook.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		12B5DF86145168E9D7AC39B326EEA8BD /* PBXTargetDependency */ = {
+		2B20A004EC9F192779E3FE64CE71F030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKHook;
 			target = 948923D6F0EC0090D2E5E60D47EBB77F /* KKHook */;
-			targetProxy = 0DA396C96BD089723A93A493A56A54BD /* PBXContainerItemProxy */;
+			targetProxy = 89CDC5B438519C8CFC93282ADE240A62 /* PBXContainerItemProxy */;
 		};
-		2368AD29BD76D9A4AC2F8878F979866C /* PBXTargetDependency */ = {
+		5B8B31054A42E570E7029E53D6375A0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Expecta;
 			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
-			targetProxy = 52ED68DCC8B9DBA9A694DC35BD299F5E /* PBXContainerItemProxy */;
+			targetProxy = 1B6AABFB7DBC553CE9A2B4FFBA029108 /* PBXContainerItemProxy */;
 		};
-		3C34F87E23195322A25969B6ACECBEDA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Specta;
-			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
-			targetProxy = 1486DDB8EC1DDD98138BB3F060C2B6AC /* PBXContainerItemProxy */;
-		};
-		578D3C0078EAB838F085E19C5F715157 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Expecta;
-			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
-			targetProxy = 8AE4F1130724E01577572C30B618CC65 /* PBXContainerItemProxy */;
-		};
-		7591180C316B2AB8F6A475611A8D5132 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 6E085F691864025A88C273DF3234EA85 /* PBXContainerItemProxy */;
-		};
-		7D0BBF2592350202BC33C6751459173F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Expecta+Snapshots";
-			target = 8B98F09738742E4D780D1B20B468CD95 /* Expecta+Snapshots */;
-			targetProxy = 39645D69CDF1014DC83110CFB7F86ECC /* PBXContainerItemProxy */;
-		};
-		87B04495A6B053FFBB116AE21033E64D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Specta;
-			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
-			targetProxy = 88110FDE5B52125EB7DE398A2D4B90B2 /* PBXContainerItemProxy */;
-		};
-		8B28C18B9AD03D06968CF5300B74FBEF /* PBXTargetDependency */ = {
+		60D2ACB21B1C9202BDE9C103D2E8D556 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KKHook_Example";
 			target = E1FC9029B1CF3B9BEFBCB6B83562C502 /* Pods-KKHook_Example */;
-			targetProxy = 78951A3618DF933691D5D89C2EFC41C4 /* PBXContainerItemProxy */;
+			targetProxy = D734C5D285453D73212A2D82C183D8E1 /* PBXContainerItemProxy */;
 		};
-		AEA8AED410324A0990D77D46D8D26775 /* PBXTargetDependency */ = {
+		67C837E67E6BA32D513C880E675FCD44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Expecta+Snapshots";
+			target = 8B98F09738742E4D780D1B20B468CD95 /* Expecta+Snapshots */;
+			targetProxy = 2C02B9DA1B08D6656FA56B8EBA8704EC /* PBXContainerItemProxy */;
+		};
+		8A99E0871FDCD4902B00C6BCC047E606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Specta;
+			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
+			targetProxy = 5B5EA7F81325F6639FE84CEEB9DE9B92 /* PBXContainerItemProxy */;
+		};
+		AE4CF4E9D5FAD2E1E567291BD903E8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Expecta;
+			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
+			targetProxy = 1B88F01B045E799770B97444844EB377 /* PBXContainerItemProxy */;
+		};
+		C117AEDDA102FCBAA7F821977A202012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Specta;
+			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
+			targetProxy = F82678D0B20FE740C2EC5B7639AE8761 /* PBXContainerItemProxy */;
+		};
+		DE48B6904B19051830266F03433882EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = AF4C8EB1314E46494871D804A8DEA578 /* PBXContainerItemProxy */;
+			targetProxy = 416B8E61A481C1636E9EBBD39F9249DF /* PBXContainerItemProxy */;
+		};
+		F714EF267BEFE2D787962F7B9AB978A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 0BB7726597A9C25311BFC2BADA266CBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C7233B70F73D5066A3A0D754CADFD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6650DE321817CBBE5AA136DF152F95D /* Specta.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		110CF3D7D69977280DE173DFEE5E29E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BA78DC91BF190DD2E1CEDEBBAE24381 /* Pods-KKHook_Tests.release.xcconfig */;
@@ -710,11 +719,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -730,7 +739,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -739,108 +747,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		13C7FDA608DAA4C9FB22DDF42BE0811D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 825B0CC3505061354787B87AE985D872 /* Specta.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_BITCODE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1573D48789580A55C9959446B4357DF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F9FF9D032846BA81AC9519011D7E8C /* KKHook.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SCM7T5H8ND;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/KKHook/KKHook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKHook/KKHook-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKHook/KKHook.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk.hook;
-				PRODUCT_MODULE_NAME = KKHook;
-				PRODUCT_NAME = KKHook;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		18B34C1C7EE80EA36F023090D17751C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3F0D247EE6F288A6B8E4EB72C42F124 /* KKHook.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SCM7T5H8ND;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/KKHook/KKHook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKHook/KKHook-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKHook/KKHook.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.ryker.kk.hook;
-				PRODUCT_MODULE_NAME = KKHook;
-				PRODUCT_NAME = KKHook;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1AD53CD384D558B7739CD553B9CE0740 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84F5161E74D3825FD2904E134B3E330C /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_BITCODE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -915,11 +821,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -935,7 +841,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -951,11 +856,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -971,7 +876,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -980,9 +884,9 @@
 			};
 			name = Debug;
 		};
-		467C2D3F14E3CC32D3A49B6116639D01 /* Debug */ = {
+		470219E7727DABAB757ED1D0D1037C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6650DE321817CBBE5AA136DF152F95D /* Specta.debug.xcconfig */;
+			baseConfigurationReference = 74BA9C93D558404845EDEA58086AE1FB /* Expecta.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -995,9 +899,43 @@
 			};
 			name = Debug;
 		};
-		470219E7727DABAB757ED1D0D1037C7F /* Debug */ = {
+		49A9B6AC0454B7A32265C6D4C96EC51C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74BA9C93D558404845EDEA58086AE1FB /* Expecta.debug.xcconfig */;
+			baseConfigurationReference = 281A2DCB73811903E924D5C34AC197BB /* KKHook.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/KKHook/KKHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKHook/KKHook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKHook/KKHook.modulemap";
+				PRODUCT_MODULE_NAME = KKHook;
+				PRODUCT_NAME = KKHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5876DB99343C51D2A534EF81098DF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F5161E74D3825FD2904E134B3E330C /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1087,9 +1025,42 @@
 			};
 			name = Release;
 		};
-		75A366E19449685B6CA180911DF5C6C8 /* Release */ = {
+		817967BE5A94D883495AD1168F065A24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19A89FF643236188BA17F93F582E04AA /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 6394BFE6DE09462987DE99485FABEBAC /* KKHook.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/KKHook/KKHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKHook/KKHook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKHook/KKHook.modulemap";
+				PRODUCT_MODULE_NAME = KKHook;
+				PRODUCT_NAME = KKHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98EB43452F78241C4961ED700CC12902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825B0CC3505061354787B87AE985D872 /* Specta.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1126,11 +1097,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SCM7T5H8ND;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1146,13 +1117,28 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4ECADC518C82D7CAEC602CDEB355B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A89FF643236188BA17F93F582E04AA /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1174,15 +1160,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		104BA624750A8497B43A3E063D15922D /* Build configuration list for PBXNativeTarget "KKHook" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18B34C1C7EE80EA36F023090D17751C8 /* Debug */,
-				1573D48789580A55C9959446B4357DF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1F69A9A5BBCA465CEEEFF9638D511394 /* Build configuration list for PBXNativeTarget "Pods-KKHook_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1210,11 +1187,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		852592627959031601A9B7D1161882BD /* Build configuration list for PBXAggregateTarget "Specta" */ = {
+		6D086B992C9BBCF85CA46CC6334C2FA0 /* Build configuration list for PBXNativeTarget "KKHook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				467C2D3F14E3CC32D3A49B6116639D01 /* Debug */,
-				13C7FDA608DAA4C9FB22DDF42BE0811D /* Release */,
+				817967BE5A94D883495AD1168F065A24 /* Debug */,
+				49A9B6AC0454B7A32265C6D4C96EC51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999696F0EC6D9DDDCE42DAFCE4C1B552 /* Build configuration list for PBXAggregateTarget "Specta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7233B70F73D5066A3A0D754CADFD14 /* Debug */,
+				98EB43452F78241C4961ED700CC12902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1228,20 +1214,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD21D346E80E608F666243B014D0204A /* Build configuration list for PBXAggregateTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1AD53CD384D558B7739CD553B9CE0740 /* Debug */,
-				75A366E19449685B6CA180911DF5C6C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E26EF7987103D28C965BCE7B0A430999 /* Build configuration list for PBXAggregateTarget "Expecta+Snapshots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA6B13576B43EEC650AE18F24B6A3987 /* Debug */,
 				602828E17C97976A7FB2499EA77A14BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEAC02B691137625FBB2DE5180D606B /* Build configuration list for PBXAggregateTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5876DB99343C51D2A534EF81098DF724 /* Debug */,
+				F4ECADC518C82D7CAEC602CDEB355B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

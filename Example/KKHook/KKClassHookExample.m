@@ -37,13 +37,6 @@ KKClassHookImported(AVAudioSession)
 
 KKClassHookEnd
 
-//@interface AVPlayer___InvisibleHook: NSObject
-//@end
-//@implementation AVPlayer___InvisibleHook
-//+ (void)load {
-//KKHookClass([self class]);
-//}
-//@end
 
 KKClassHookUnImported(UIView)
 
