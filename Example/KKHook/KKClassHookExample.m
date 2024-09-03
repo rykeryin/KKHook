@@ -34,16 +34,16 @@ KKSymbolHookWithMachO(TestMachO, int, fishSuccess, void) {
     printf("fishSuccess hooked");
     return orig_fishSuccess();
 }
-// 地址Hook，参数：需要hook的包、返回值、地址，参数
-KKAddressHookWithMachO(TestMachO, 0x0000000000004000, int, fishSuccess, int a) {
-    return orig_fishSuccess(a);
-}
-// PLT表hook，参数：需要hook的包、返回值、地址，参数
-KKFishHook(int, printf, const char* format, ...) {
-    va_list args;
-    va_start(args, format);
-    int ret = vprintf(format, args);
-    va_end(args);
-    // 这里可以添加自定义代码，例如日志记录
-    return ret;
-}
+//// 地址Hook，参数：需要hook的包、返回值、地址，参数
+//KKAddressHookWithMachO(TestMachO, 0x0000000000004000, int, fishSuccess, int a) {
+//    return orig_fishSuccess(a);
+//}
+//// PLT表hook，参数：需要hook的包、返回值、地址，参数
+//KKFishHook(int, printf, const char* format, ...) {
+//    va_list args;
+//    va_start(args, format);
+//    int ret = vprintf(format, args);
+//    va_end(args);
+//    // 这里可以添加自定义代码，例如日志记录
+//    return ret;
+//}

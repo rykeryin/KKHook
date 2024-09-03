@@ -18,7 +18,6 @@
 				C117AEDDA102FCBAA7F821977A202012 /* PBXTargetDependency */,
 			);
 			name = "Expecta+Snapshots";
-			productName = "Expecta+Snapshots";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXAggregateTarget;
@@ -28,7 +27,6 @@
 			dependencies = (
 			);
 			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
 		};
 		DC371B7477C88184274EC6710690F97C /* Expecta */ = {
 			isa = PBXAggregateTarget;
@@ -38,7 +36,6 @@
 			dependencies = (
 			);
 			name = Expecta;
-			productName = Expecta;
 		};
 		F8676010755CF1530FC02DA9A0D8822B /* Specta */ = {
 			isa = PBXAggregateTarget;
@@ -48,7 +45,6 @@
 			dependencies = (
 			);
 			name = Specta;
-			productName = Specta;
 		};
 /* End PBXAggregateTarget section */
 
@@ -147,20 +143,20 @@
 		0E244B4D120E249D45C8392248AB05FF /* KKHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKHook-prefix.pch"; sourceTree = "<group>"; };
 		1118CF2BB8CE910078D44A804DEE16EA /* KKHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKHook-dummy.m"; sourceTree = "<group>"; };
 		19A89FF643236188BA17F93F582E04AA /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		204C7B9598C02BE63685183B7A44139A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		204C7B9598C02BE63685183B7A44139A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		22FB366418CEA34CDEC7233EFD3E261D /* Pods-KKHook_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKHook_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		243FE2E06A36354CD990635B2E43F84E /* Pods-KKHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2620CBE1881FBD2F476CBECC6E42E659 /* KKClassHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKClassHook.h; path = KKHook/Classes/KKClassHook.h; sourceTree = "<group>"; };
 		281A2DCB73811903E924D5C34AC197BB /* KKHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKHook.release.xcconfig; sourceTree = "<group>"; };
 		2C0BE2D4D6F5F614E9C954DC60E7A36C /* Pods-KKHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKHook_Example-dummy.m"; sourceTree = "<group>"; };
-		2D941667E9CAD8C7CFECBEFBA279819F /* KKAddressHook.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = KKAddressHook.mm; path = KKHook/Classes/KKAddressHook.mm; sourceTree = "<group>"; };
+		2D941667E9CAD8C7CFECBEFBA279819F /* KKAddressHook.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = KKAddressHook.mm; path = KKHook/Classes/KKAddressHook.mm; sourceTree = "<group>"; };
 		336D5F16413E9EBD4579EF4179411EB5 /* KKClassHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKClassHook.m; path = KKHook/Classes/KKClassHook.m; sourceTree = "<group>"; };
 		34B71EA0099DB8056A75FA967326A276 /* Pods-KKHook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Example-Info.plist"; sourceTree = "<group>"; };
 		3A3D72317D51708D78DA194047CFE545 /* Pods-KKHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		41712693D31900B789618C8A38CA2C7B /* Pods-KKHook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKHook_Example-frameworks.sh"; sourceTree = "<group>"; };
 		487BC6872D518530144EA4AFB4530E2B /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
 		4BA78DC91BF190DD2E1CEDEBBAE24381 /* Pods-KKHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		566E45781FCAF15F225206932971F9D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		566E45781FCAF15F225206932971F9D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5ADA6CB0C37174370C36F74A7984039E /* KKFishHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKFishHook.m; path = KKHook/Classes/KKFishHook.m; sourceTree = "<group>"; };
 		604EC67882C982D692FBF0EE16DF7448 /* KKHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKHook-Info.plist"; sourceTree = "<group>"; };
 		6074852DE3DDBA91BE483F95E87608C0 /* Pods-KKHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,7 +177,7 @@
 		97A234168F903ED35CA9D26E16C7FB9D /* KKSymbolHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKSymbolHook.h; path = KKHook/Classes/KKSymbolHook.h; sourceTree = "<group>"; };
 		9C4EC8EEF2E61CF67947195A290D932E /* Pods-KKHook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKHook_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C675CED794CCDD980E6E95569626E63 /* Pods-KKHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B66C1C3C220FEDC7649EA559E7D97CAE /* KKAddressHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKAddressHook.h; path = KKHook/Classes/KKAddressHook.h; sourceTree = "<group>"; };
 		BDEB09736089073A42132EB096150DA3 /* Pods-KKHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2E77DCADAB1C328B1369BCAE7B4C430 /* KKFishHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFishHook.h; path = KKHook/Classes/KKFishHook.h; sourceTree = "<group>"; };
@@ -189,8 +185,8 @@
 		CDCE3B5AA2519DEC19C2206F32613BD8 /* Pods-KKHook_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKHook_Tests"; path = Pods_KKHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0947DC43BBFDC35D48D646ED45C396E /* Pods-KKHook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKHook_Tests-Info.plist"; sourceTree = "<group>"; };
 		E2E738DB690D97BF334D81F865EDB21C /* Pods-KKHook_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKHook_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E548D1401027266298A9843A2D18A943 /* KKHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F23E3149494C2184AFF232BA14839CD1 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
+		E548D1401027266298A9843A2D18A943 /* KKHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F23E3149494C2184AFF232BA14839CD1 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fishhook.c; path = KKHook/Classes/fishhook.c; sourceTree = "<group>"; };
 		F42E39A4F529CC098FBC8818A7E0E75F /* Pods-KKHook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKHook_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6650DE321817CBBE5AA136DF152F95D /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		F8FA7929808106D6DBD1C84D88828EDD /* Pods-KKHook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKHook_Example.modulemap"; sourceTree = "<group>"; };
@@ -231,6 +227,7 @@
 			children = (
 				EC066860092A08EB992C0674ACC09CC5 /* Support Files */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -309,16 +306,16 @@
 		8ABD5CABB714FD05EF1097454E93CDCC /* KKHook */ = {
 			isa = PBXGroup;
 			children = (
-				769FE09941C76420D905A75D5D9EBB94 /* KKHook.h */,
 				751080EB413C253FAB34333F4EF3A8B9 /* dobby.h */,
-				0E1BCE5E61352F0914F91CDAEC1526A4 /* fishhook.h */,
 				F23E3149494C2184AFF232BA14839CD1 /* fishhook.c */,
+				0E1BCE5E61352F0914F91CDAEC1526A4 /* fishhook.h */,
 				B66C1C3C220FEDC7649EA559E7D97CAE /* KKAddressHook.h */,
 				2D941667E9CAD8C7CFECBEFBA279819F /* KKAddressHook.mm */,
 				2620CBE1881FBD2F476CBECC6E42E659 /* KKClassHook.h */,
 				336D5F16413E9EBD4579EF4179411EB5 /* KKClassHook.m */,
 				C2E77DCADAB1C328B1369BCAE7B4C430 /* KKFishHook.h */,
 				5ADA6CB0C37174370C36F74A7984039E /* KKFishHook.m */,
+				769FE09941C76420D905A75D5D9EBB94 /* KKHook.h */,
 				97A234168F903ED35CA9D26E16C7FB9D /* KKSymbolHook.h */,
 				970B3091C1C6E792E5231D4B9A084013 /* KKSymbolHook.m */,
 				7AEBD67B0B4D16F3795A697DD5BB4DD5 /* Frameworks */,
@@ -354,6 +351,7 @@
 			children = (
 				A0BC20F286B933CFAB27444F387B3DC5 /* Support Files */,
 			);
+			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -362,6 +360,7 @@
 			children = (
 				2E1FA29265EF29C9ADED8D133B95EF3F /* Support Files */,
 			);
+			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -370,6 +369,7 @@
 			children = (
 				0ECDEEDE3A57CBF96EBB28348FAB31BC /* Support Files */,
 			);
+			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -1019,7 +1019,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

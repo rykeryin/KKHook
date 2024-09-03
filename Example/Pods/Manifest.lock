@@ -9,7 +9,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - KKHook (2.9.0)
+  - KKHook (3.0.1)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -34,7 +34,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  KKHook: 9351ba29b34a6dc4a1ed38a74fbdeb7329baafd3
+  KKHook: fac1cd4b06c22a3fdc3f4222d86ba0653064f8a1
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 08eea53dc5ce1c4178ce1283196f1912467ae1c6
