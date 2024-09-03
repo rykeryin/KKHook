@@ -37,7 +37,7 @@ void KKHookInstanceMethod(Class claz, Class oriClass) {
         Method method = mothList_f[i];
         SEL m_sel = method_getName(method);
         NSString *methodName = NSStringFromSelector(m_sel);
-         if([methodName hasPrefix:@"hook"]) {
+         if([methodName hasPrefix:@"hook"] && [methodName containsString:@"_"]) {
              if([methods containsObject:methodName]) {
                 NSLog(@"\n\n\n========= 方法名重复: %@ ========\n\n\n", methodName);
                 raise(9);

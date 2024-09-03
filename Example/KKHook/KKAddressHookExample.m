@@ -9,6 +9,6 @@
 #import <KKHook/KKAddressHook.h>
 #import "Fish.h"
 
-KKAddressHookWithMachO(TestMachO, 0x0000000000004000, int, fishSuccess, int a) {
-    return orig_fishSuccess(a);
-}
+//KKAddressHookWithMachO(TestMachO, 0x0000000000004000, int, fishSuccess, int a) {
+//    return orig_fishSuccess(a);
+//}
